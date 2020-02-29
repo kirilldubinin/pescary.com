@@ -81,9 +81,10 @@ export default {
         margin: 36px 0 6px 0;
       }
       &--sub {
-        letter-spacing: 14px;
-        font-size: 18px;
-        font-weight: bold;
+        letter-spacing: 18px;
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 16px;
       }
     }
   }

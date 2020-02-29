@@ -24,10 +24,6 @@ module.exports = {
   plugins: [
     '@/plugins/element-ui'
   ],
-  server: {
-    port: 3001, // default: 3000
-    host: '0.0.0.0' // default: localhost
-  },
   /*
   ** Build configuration
   */
