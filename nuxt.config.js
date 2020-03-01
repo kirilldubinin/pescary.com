@@ -27,6 +27,11 @@ module.exports = {
   /*
   ** Build configuration
   */
+  server: {
+    port: 8080, // default: 3000
+    host: '127.0.0.1', // default: localhost,
+    timing: false
+  },
   build: {
     /*
     ** Run ESLint on save
