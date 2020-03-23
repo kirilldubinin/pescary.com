@@ -22,14 +22,13 @@ export default {
 <style lang="scss">
   $color: #fefefe;
   .product-name {
-    height: 100px;
+    font-family: 'Baloo Chettan', cursive;
     text-align: center;
-    font-family: 'Core Rhino';
     width: 100%;
     color: #fefefe;
-    font-size: 34px;
+    font-size: 40px;
     /* margin-bottom: 42px; */
-    letter-spacing: 3px;
-    padding: 10px 0 0 0;
+    letter-spacing: 2px;
+    padding: 16px 0 0 0;
   }
 </style>

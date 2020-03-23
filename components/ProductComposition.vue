@@ -1,6 +1,7 @@
 <template>
   <section class="product-composition">
-    <b>{{label}}: </b>{{composition}}
+    <b v-if="label">{{label}}: </b>
+    <label v-html="composition"></label>
   </section>
 </template>
 

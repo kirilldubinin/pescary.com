@@ -4,7 +4,7 @@
     <div class="pescary-logo__main">
       <h3>PESCARY</h3>
     </div>
-    <div class="pescary-logo__wave"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="75.1488mm" height="6mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+    <div class="pescary-logo__wave"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="10mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
       viewBox="0 0 13891 668"
       xmlns:xlink="http://www.w3.org/1999/xlink">
       <g>
@@ -12,9 +12,9 @@
       </g>
       </svg>
     </div>
-    <div class="pescary-logo__sub">
+    <!--div class="pescary-logo__sub">
       FISH FEED
-    </div>
+    </div-->
   </section>
 </template>
 
@@ -32,19 +32,21 @@
     &__main {
       h3 {
         font-family: 'Core Rhino';
-        font-size: 60px;
-        color: $color;
-        letter-spacing: 12px;
+        font-size: 66px;
+        color: #fefefe;
+        letter-spacing: 10px;
         font-weight: 100;
         text-align: center;
         line-height: 1;
         height: 60px;
         font-weight: bold;
+        /* width: 100%; */
+        padding-left: 4px;
       }
     }
     &__wave {
       svg {
-        width: 230px;
+        width: 280px;
       }
     }
     &__sub {

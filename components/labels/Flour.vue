@@ -1,17 +1,34 @@
 <template>
   <section class="granule-flour">
-    <Type class="granule-flour__type" label="Мука экструдированного гороха" color="#e4cf3c"/>
+
+    <Type class="granule-flour__type" :label="type" color="#e4cf3c"/>
     <Logo class="granule-flour__logo"/>
 
-    <Circles class="granule-flour__circles"/>
+    <Ring>
+      <QRUrl/>
+    </Ring>
+    <Ring>
+      <Weight :value="weight"/>
+    </Ring>
+    <Ring>
+      <Eco/>
+    </Ring>
+    <Ring>
+      <div style="font-size: 14px; margin-top: 8px; font-weight: bold;">extrusion</div>
+    </Ring>
 
     <p class="granule-flour__eco"> Натуральный продукт, не содержит красителей, ароматизаторов и консервантов.</p>
 
-    <Composition label="СОСТАВ" composition="Мука экструдированного гороха"/>
-    <Composition label="показатели" composition="Сырой протеин: 22%, Сырой жир: 1.2%, Переваримая энергия: 14.5МДж"/>
-    <Composition label="ИЗГОТОВИТЕЛЬ" composition="ООО «ПРОКОРМ», 601470, Владимирская обл., Гороховецкий р-н, МО Денисовское,  д. Васильчиково, д. 14. Телефон: 8-800-550-28-27, e-mail: sales@prokorm.com"/>
-    <Composition label="Срок хранения" composition="6 месяцев со дня изготовления"/>
-    <Composition label="Масса нетто" composition="1 кг"/>
+    <Composition label="СОСТАВ" :composition="type"/>
+    <Composition label="показатели" :composition="indicators"/>
+    <Composition label="ИЗГОТОВИТЕЛЬ" composition="ООО «ПРОКОРМ», 601470, Владимирская обл., Гороховецкий р-н, МО Денисовское,  д. Васильчиково, д. 14.&nbsp;&nbsp;&nbsp;8-800-550-28-27,&nbsp;&nbsp;sales@prokorm.com"/>
+    <el-row type="flex">
+      <el-col :span="16"><Composition label="Срок хранения" composition="6 месяцев со дня изготовления"/></el-col>
+      <el-col :span="8"><Composition label="Дата изготовления"/></el-col>
+    </el-row>
+
+    <Composition label="Масса нетто" :composition="weight"/>
+    <!--Composition composition="Товар не подлежит обязательной сертификации."/-->
   </section>
 </template>
 
@@ -19,55 +36,48 @@
 import Logo from '../PescaryLogo.vue'
 import Type from '../ProductType.vue'
 import Name from '../ProductName.vue'
-import Circles from '../Circles.vue'
+import Ring from '../Ring.vue'
 import Composition from '../ProductComposition.vue'
+import QRUrl from '../QRUrl.vue'
+import Weight from '../Weight.vue'
+import Eco from '../Eco.vue'
+
 export default {
+  props: ['type', 'weight', 'indicators'],
   components: {
     Logo,
     Type,
     Name,
-    Circles,
-    Composition
+    Ring,
+    Composition,
+    QRUrl,
+    Weight,
+    Eco
   }
 }
 </script>
 
 <style lang="scss">
 
-  @page {
-    size: 150mm 210mm; // set appropriately
-    margin: 0;
-  }
-  @media print {
-    html, body {
-      width: 150mm; // set appropriately
-      height: 210mm; // set appropriately
-    }
-    /* ... the rest of the rules ... */
-  }
-
   .granule-flour {
-    padding: 5mm;
-    margin: 4em auto;
+    padding: 6mm 4mm;
     width: 105mm;
-    height: 150mm;
+    height: 148mm;
     background: #1f2e35;
     text-align: center;
     font-family: 'Core Rhino';
-
-    &__circles {
-      margin-bottom: 40px;
-    }
     &__logo {
-      margin: 80px 0 40px 0;
+      margin: 70px 0 40px 0;
+      z-index: 1;
     }
     &__eco {
       font-family: 'Montserrat', cursive;
-      margin-bottom: 20px;
+      margin: 30px 0 20px 0;
       color: #f0f0f0;
-      font-size: 14px;
-      text-align: center;
+      font-size: 15px;
+      text-align: justify;
     }
+
   }
 
 </style>
