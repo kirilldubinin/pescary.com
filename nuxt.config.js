@@ -17,6 +17,20 @@ module.exports = {
       { rel: 'stylesheet', href: 'http://allfont.ru/allfont.css?fonts=olgactt'}
     ]
   },
+
+  /* CSS section */
+  buildModules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  tailwindcss: {
+    configPath: '~/config/tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css',
+    purgeCSSInDev: false,
+    exposeConfig: false
+  },
+  purgeCSS: {
+    whitelist: ['css-selector-to-whitelist'],
+  },
   /*
   ** Customize the progress bar color
   */
