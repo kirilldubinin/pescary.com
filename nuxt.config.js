@@ -12,7 +12,7 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Fredoka+One|Gloria+Hallelujah|Montserrat|Righteous|Poiret+One&display=swap' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap" rel="stylesheet' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet'},
       { rel: 'stylesheet', href: 'http://allfont.ru/allfont.css?fonts=olgactt'}
     ]

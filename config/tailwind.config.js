@@ -7,7 +7,16 @@
 module.exports = {
   theme: {
     fontFamily: {
-      'serif': ['Baloo']
+      'baloo': ['"Baloo Chettan 2"'],
+      'montserrat': ['"Montserrat"']
+    },
+    extend: {
+      spacing: {
+        '72': '18rem'
+      },
+      screens: {
+        '2xl': '1440px'
+      }
     }
   },
   variants: {},

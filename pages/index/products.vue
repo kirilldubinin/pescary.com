@@ -1,16 +1,16 @@
 <template>
   <section class="w-full max-w-screen-xl">
-    <div class="p-12 w-full grid sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 gap-6">
-      <div class="bg-gray-100 p-8 shadow-md cursor-pointer"
+    <div class="p-12 w-full  grid sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 lg:gap-6">
+      <div class="transition duration-150 ease-in-out hover:bg-gray-100 p-8 hover:shadow-md cursor-pointer"
         :key="product.id"
-        v-for="product in products">
+        v-for="product in categories">
         <nuxt-link :to="product.route">
           <img class="object-cover h-48 w-full rounded-lg"
             :src="product.img"
             :title="product.label"
             :alt="product.label"/>
 
-          <p class="mt-8 text-center text-gray-800 tracking-wider">{{product.label}}</p>
+          <h2 class="transition duration-150 ease-in-out mt-8 text-center text-gray-800 tracking-wider">{{product.label}}</h2>
         </nuxt-link>
       </div>
     </div>
@@ -19,52 +19,13 @@
 </template>
 
 <script>
+  import categories from '../../store/categories.js'
   export default {
     components: {
     },
     data() {
       return {
-        products: [{
-          id: 1,
-          label: 'СЫПУХА',
-          route:'products/lure',
-          img: '/images/mock.png'
-        }, {
-          id: 2,
-          label: 'ГРАНУЛА',
-          route:'/granule',
-          img: '/images/mock2.png'
-        }, {
-          id: 3,
-          label: 'ПЕЛЛЕТС',
-          route:'/pellets',
-          img: '/images/mock3.png'
-        }, {
-          id: 3,
-          label: 'ЛИКВИДЫ',
-          route:'/pellets',
-          img: '/images/mock.png'
-        }, {
-          id: 3,
-          label: 'МАСЛА',
-          route:'/pellets',
-          img: '/images/mock3.png'
-        }, {
-          id: 3,
-          label: 'ПАТОКА',
-          route:'/pellets',
-          img: '/images/mock2.png'
-        }, {
-          id: 3,
-          label: 'БОЙЛОСТРОЕНИЕ',
-          route:'/pellets',
-          img: '/images/mock2.png'
-        }, {
-          id: 3,
-          label: 'ПЛАСТИК',
-          route:'/pellets',
-          img: '/images/mock.png'
-        }]
+        categories: categories
       }
     }
   }
