@@ -15,9 +15,10 @@ export default {
 <style lang="scss">
   .fish {
     line-height: 20px;
-    font-size: 14px;
+    font-size: 13px;
     color: #fefefe;
-    padding-top: 16px;
+    padding-top: 12px;
     text-align: center;
+    font-weight: bold;
   }
 </style>

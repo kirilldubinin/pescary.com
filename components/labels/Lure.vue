@@ -1,7 +1,7 @@
 <template>
   <section class="lure">
 
-    <Type class="lure__type" :label="type" color="#FBB02D"/>
+    <Type class="lure__type" :label="type" color="rgb(251, 221, 45)"/>
 
     <Name :label="name"/>
 
@@ -9,19 +9,20 @@
     <Ring>
       <Weight :value="weight"/>
     </Ring>
-    <Ring class="color">
-      <div v-bind:style="{ backgroundColor: circleBackground }">&nbsp;</div>
-    </Ring>
     <Ring>
       <Fish :value="fish"/>
     </Ring>
-    <Ring class="taste" v-html="circleIcon">
+    <Ring v-if="circleBackground" class="color">
+      <div v-bind:style="{ backgroundColor: circleBackground }">&nbsp;</div>
+    </Ring>
+    <Ring class="taste" v-if="circleIcon" v-html="circleIcon">
     </Ring>
     <Composition label="СОСТАВ" :composition="composition"/>
     <Composition label="ИЗГОТОВИТЕЛЬ" composition="ООО «ПРОКОРМ», 601470, Владимирская обл., Гороховецкий р-н, МО Денисовское,  д.Васильчиково, д.14.&nbsp;&nbsp;&nbsp;8-800-550-28-27,&nbsp;&nbsp;&nbsp;pescary.com"/>
     <Composition label="Срок хранения" composition="12 месяцев со дня изготовления (указан на упаковке)"/>
     <Composition label="Масса нетто" :composition="weight"/>
     <Composition composition="Товар не подлежит обязательной сертификации."/>
+    <Barcode :code="barcode"/>
   </section>
 </template>
 
@@ -35,9 +36,10 @@ import Weight from '../Weight.vue'
 import Fish from '../Fish.vue'
 import Brush from '../Brush.vue'
 import Logo from '../PescaryLogo.vue'
+import Barcode from '../Barcode.vue'
 
 export default {
-  props: ['type', 'name', 'weight', 'indicators', 'composition', 'circleBackground', 'circleIcon', 'fish'],
+  props: ['type', 'name', 'weight', 'indicators', 'composition', 'circleBackground', 'circleIcon', 'fish', 'barcode'],
   components: {
     Logo,
     Type,
@@ -47,7 +49,8 @@ export default {
     QRUrl,
     Weight,
     Brush,
-    Fish
+    Fish,
+    Barcode
   }
 }
 </script>
@@ -57,20 +60,22 @@ export default {
   .lure {
     padding: 0 4mm 6mm 4mm;
     width: 105mm;
-    height: 148mm;
+    height: 147.9mm;
     background: #1f2e35;
     text-align: center;
     font-family: 'Core Rhino';
     margin: 0;
+    position: relative;
 
     &__fish {
       font-family: 'Montserrat', cursive;
       color: #f0f0f0;
       margin: 10mm 0;
-      font-size: 22px;
+      font-size: 20px;
+      font-weight: bold;
     }
     &__logo {
-      margin: 80px 0 10px 0;
+      margin: 64px 0 10px 0;
       z-index: 1;
     }
     &__eco {
@@ -101,8 +106,6 @@ export default {
         border: 2px solid #f0f0f0;
 
       }
-    }
-    .pescary-ring {
     }
   }
 

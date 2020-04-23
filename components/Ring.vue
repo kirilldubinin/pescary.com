@@ -23,7 +23,7 @@ export default {
     text-align: center;
     overflow: hidden;
     color: $color;
-    margin: 20px 4px;
+    margin: 14px 4px 10px 4px;
   }
 
 </style>

@@ -11,19 +11,6 @@
         <Name :label="name"/>
 
         <Logo class="granule-flour__logo"/>
-
-        <Ring>
-          <QRUrl/>
-        </Ring>
-        <Ring>
-          <Weight :value="weight"/>
-        </Ring>
-        <Ring>
-          <Eco/>
-        </Ring>
-        <Ring>
-          <div style="font-size: 20px; margin-top: 0px; font-weight: bold;">OIL</div>
-        </Ring>
       </el-col>
 
       <el-col :span="6">
@@ -33,6 +20,7 @@
         <Composition label="Срок годности" composition="6 месяцев со дня изготовления"/>
         <Composition label="Дата изготовления"/>
         <Composition label="Объем" :composition="weight"/>
+        <Barcode :code="barcode"/>
       </el-col>
     </el-row>
   </section>
@@ -47,9 +35,10 @@ import Composition from '../ProductComposition.vue'
 import QRUrl from '../QRUrl.vue'
 import Weight from '../Weight.vue'
 import Eco from '../Eco.vue'
+import Barcode from '../Barcode.vue'
 
 export default {
-  props: ['type', 'name', 'weight', 'indicators', 'composition'],
+  props: ['type', 'name', 'weight', 'indicators', 'composition', 'barcode'],
   components: {
     Logo,
     Type,
@@ -58,7 +47,8 @@ export default {
     Composition,
     QRUrl,
     Weight,
-    Eco
+    Eco,
+    Barcode
   }
 }
 </script>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width='954px' height='450px' version='1.1' xmlns='http://www.w3.org/2000/svg'>
+<text x='9px' y='405px' font-family='Arial' font-size='72'>4</text>
+<desc>First Guard</desc>
+<rect x='63px' y='22.5px' width='9px' height='405px' fill='black' stroke-width='0' />
+<rect x='81px' y='22.5px' width='9px' height='405px' fill='black' stroke-width='0' />
+<desc>6</desc>
+<text x='108px' y='405px' font-family='Arial' font-size='72'>6</text>
+<rect x='99px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<rect x='117px' y='22.5px' width='36px' height='315px' fill='black' stroke-width='0' />
+<desc>3</desc>
+<text x='171px' y='405px' font-family='Arial' font-size='72'>3</text>
+<rect x='162px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<rect x='207px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>1</desc>
+<text x='234px' y='405px' font-family='Arial' font-size='72'>1</text>
+<rect x='234px' y='22.5px' width='18px' height='315px' fill='black' stroke-width='0' />
+<rect x='270px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>1</desc>
+<text x='297px' y='405px' font-family='Arial' font-size='72'>1</text>
+<rect x='297px' y='22.5px' width='18px' height='315px' fill='black' stroke-width='0' />
+<rect x='333px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>5</desc>
+<text x='360px' y='405px' font-family='Arial' font-size='72'>5</text>
+<rect x='351px' y='22.5px' width='27px' height='315px' fill='black' stroke-width='0' />
+<rect x='396px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>0</desc>
+<text x='423px' y='405px' font-family='Arial' font-size='72'>0</text>
+<rect x='414px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<rect x='441px' y='22.5px' width='27px' height='315px' fill='black' stroke-width='0' />
+<desc>Center</desc>
+<rect x='477px' y='22.5px' width='9px' height='405px' fill='black' stroke-width='0' />
+<rect x='495px' y='22.5px' width='9px' height='405px' fill='black' stroke-width='0' />
+<desc>9</desc>
+<text x='531px' y='405px' font-family='Arial' font-size='72'>9</text>
+<rect x='513px' y='22.5px' width='27px' height='315px' fill='black' stroke-width='0' />
+<rect x='549px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>9</desc>
+<text x='594px' y='405px' font-family='Arial' font-size='72'>9</text>
+<rect x='576px' y='22.5px' width='27px' height='315px' fill='black' stroke-width='0' />
+<rect x='612px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>9</desc>
+<text x='657px' y='405px' font-family='Arial' font-size='72'>9</text>
+<rect x='639px' y='22.5px' width='27px' height='315px' fill='black' stroke-width='0' />
+<rect x='675px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>8</desc>
+<text x='720px' y='405px' font-family='Arial' font-size='72'>8</text>
+<rect x='702px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<rect x='729px' y='22.5px' width='9px' height='315px' fill='black' stroke-width='0' />
+<desc>1</desc>
+<text x='783px' y='405px' font-family='Arial' font-size='72'>1</text>
+<rect x='765px' y='22.5px' width='18px' height='315px' fill='black' stroke-width='0' />
+<rect x='801px' y='22.5px' width='18px' height='315px' fill='black' stroke-width='0' />
+<desc>2</desc>
+<text x='846px' y='405px' font-family='Arial' font-size='72'>2</text>
+<rect x='828px' y='22.5px' width='18px' height='315px' fill='black' stroke-width='0' />
+<rect x='855px' y='22.5px' width='18px' height='315px' fill='black' stroke-width='0' />
+<desc>End Guard</desc>
+<rect x='891px' y='22.5px' width='9px' height='405px' fill='black' stroke-width='0' />
+<rect x='909px' y='22.5px' width='9px' height='405px' fill='black' stroke-width='0' />
+</svg>

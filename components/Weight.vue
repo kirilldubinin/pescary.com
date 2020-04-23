@@ -16,7 +16,7 @@ export default {
 <style lang="scss">
   .weight {
 
-    font-size: 32px;
+    font-size: 22px;
     color: #fefefe;
     margin: 6px auto;
   }
