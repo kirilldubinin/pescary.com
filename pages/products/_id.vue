@@ -93,7 +93,6 @@
 
 <script>
   import MainHeader from '../../components/MainHeader.vue'
-  import all from '../../store/products/all'
   import { mapMutations } from 'vuex'
   export default {
     components: {
