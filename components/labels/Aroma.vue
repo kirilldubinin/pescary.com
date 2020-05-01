@@ -5,7 +5,7 @@
     <Logo class="molasses__logo"/>
     <div class="left">
       <Composition label="СОСТАВ" :composition="composition"/>
-      <Composition label="ИЗГОТОВИТЕЛЬ" composition="ООО «ПРОКОРМ», 601470, Владимирская обл., Гороховецкий р-н, МО Денисовское,  д.Васильчиково, д.14.&nbsp;&nbsp;&nbsp;8-800-550-28-27,&nbsp;&nbsp;&nbsp;pescary.com"/>
+      <Composition label="ИЗГОТОВИТЕЛЬ" composition="ООО «ПРОКОРМ», 601470, Владимирская обл., Гороховецкий р-н, МО Денисовское,  д.Васильчиково, д.14.<br/>8-800-550-28-27,&nbsp;&nbsp;&nbsp;pescary.com"/>
 
     </div>
     <div class="right">
