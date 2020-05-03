@@ -1,12 +1,12 @@
 <template>
-  <section class="index">
+  <section class="pt-20 category">
     <MainHeader class="h-20"/>
     <section class="w-full mx-auto mt-20 max-w-6xl">
       <div class="p-12 w-full  grid sm:grid-cols-3 sm:gap-4 lg:grid-cols-4 lg:gap-6">
-        <div class="transition duration-150 ease-in-out hover:bg-gray-100 p-8 hover:shadow-md cursor-pointer"
+        <div class="category__item transition duration-150 ease-in-out hover:bg-gray-100 p-8 hover:shadow-md cursor-pointer hover:text-orange-500"
           :key="product.id"
           v-for="product in categories">
-          <nuxt-link :to="product.route">
+          <nuxt-link :to="product.route" class="hover:text-orange-500">
             <img class="object-cover h-48 w-full rounded-lg"
               :src="product.img"
               :title="product.label"
@@ -36,23 +36,12 @@
 </script>
 
 <style lang="scss">
-  .products {
-    &__card {
-      background: whitesmoke;
-      padding: 2em 1em 1em 1em;
-      box-shadow: 0 0 5px #ccc;
-      margin: 2em;
-      cursor: pointer;
-      img {
-        width: 180px;
-        height: 180px;
-        object-fit: cover;
-        background-size: cover;
-        border-radius: 20%;
-      }
-      p {
-        padding-top: 1em;
-        text-align: center;
+  .category {
+    &__item {
+      &:hover {
+        h2 {
+          color: #f3a42f;
+        }
       }
     }
   }

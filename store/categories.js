@@ -6,7 +6,7 @@ export default [{
 }, {
   id: 2,
   label: 'ГРАНУЛА',
-  route:'/granule',
+  route:'/products/granule',
   img: '/images/mock2.png'
 }, {
   id: 3,

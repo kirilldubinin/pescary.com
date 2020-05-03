@@ -18,7 +18,7 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     fishes: ['Карп', 'Карась'],
     color: 'none',
-    aroma: 'none',
+    aroma: 'без аромата',
     route:'products/lure', // не менять
     img: '/images/mock.png' // не менять
   }, {
@@ -37,7 +37,8 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     fishes: ['Карп', 'Карась'],
     color: 'Черный',
-    aroma: 'none',
+    background: 'black',
+    aroma: 'без аромата',
     route:'products/lure',
     img: '/images/mock.png'
   }, {
@@ -57,6 +58,7 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     fishes: ['Карп', 'Карась'],
     color: 'Красный',
+    background: 'red',
     aroma: 'Клубника со сливками',
     route:'products/lure',
     img: '/images/mock.png'

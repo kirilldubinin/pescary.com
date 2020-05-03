@@ -1,0 +1,20 @@
+<template>
+  <section class="title m-4 text-xl text-left font-bold text-gray-800">
+    <h1>{{title.main}}</h1>
+    <p v-if="title.sub" class="text-xs text-gray-500 font-hairline">{{title.sub}}</p>
+  </section>
+</template>
+
+<script>
+  export default {
+    props: ['title']
+  }
+</script>
+
+<style lang="scss">
+
+</style>
+
+
+
+
