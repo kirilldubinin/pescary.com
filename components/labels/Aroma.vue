@@ -3,7 +3,12 @@
     <Type class="molasses__type" :label="type" color="#487cd4"/>
     <div class="molasses__aroma-icon" v-html="circleIcon"></div>
     <Logo class="molasses__logo"/>
+    <p class="molasses__description">
+      <b>Совместим с любыми PVA материалами</b>
+      Используйте Арома Комплекс для добавления в прикормку, гранулы, пеллетс, бойлы. Рекомендуемая норма ввода: 40-50 мл на 1 кг прикормки/пеллетса.
+    </p>
     <div class="left">
+      <!--Composition :composition="'Используйте Арома Комплекс для добавления в прикормку, гранулы, пеллетс, бойлы. Рекомендуемая норма ввода: 40-50 мл на 1 кг прикормки/пеллетса.'"/-->
       <Composition label="СОСТАВ" :composition="composition"/>
       <Composition label="ИЗГОТОВИТЕЛЬ" composition="ООО «ПРОКОРМ», 601470, Владимирская обл., Гороховецкий р-н, МО Денисовское,  д.Васильчиково, д.14.<br/>8-800-550-28-27,&nbsp;&nbsp;&nbsp;pescary.com"/>
 
@@ -80,10 +85,10 @@ export default {
       }
     }
     &__aroma-icon {
-      padding: 20px 0;
+      padding: 10px 0 6px 0;
       svg {
-        height: 180px;
-        width: 180px;
+        height: 160px;
+        width: 160px;
         fill: #f0f0f0;
         path {
           fill: #f0f0f0 !important;
@@ -91,10 +96,24 @@ export default {
       }
     }
 
+    &__description {
+      width: 76mm;
+      margin: 0 auto;
+      font-family: 'Montserrat', cursive;
+      font-size: 10px;
+      text-align: justify;
+      color: #f0f0f0;
+      b {
+        display: block;
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 4px;
+      }
+    }
     .left {
       transform: rotate(90deg);
       position: absolute;
-      top: 168px;
+      top: 166px;
       left: -140px;
       width: 96mm;
       /* font-size: 8px !important; */

@@ -2,7 +2,7 @@
   <section class="granule-flour">
 
     <el-row type="flex">
-      <el-col :span="6">
+      <el-col :span="6" class="left">
         <p class="granule-flour__eco"> Натуральный продукт, не содержит красителей, ароматизаторов и консервантов.</p>
       </el-col>
       <el-col :span="12">
@@ -13,7 +13,7 @@
         <Logo class="granule-flour__logo"/>
       </el-col>
 
-      <el-col :span="6">
+      <el-col :span="6" class="right">
         <Composition label="СОСТАВ" :composition="composition || type"/>
         <Composition label="показатели" :composition="indicators"/>
         <Composition label="ИЗГОТОВИТЕЛЬ" composition="ООО «ПРОКОРМ», 601470, Владимирская обл., Гороховецкий р-н, МО Денисовское,  д. Васильчиково, д. 14.&nbsp;&nbsp;&nbsp;8-800-550-28-27,&nbsp;&nbsp;sales@prokorm.com"/>
@@ -56,14 +56,14 @@ export default {
 <style lang="scss">
 
   .granule-flour {
-    padding: 6mm 4mm;
+    padding:0 4mm 6mm 4mm;
     width: 200mm;
     height: 75mm;
     background: #1f2e35;
     text-align: center;
     font-family: 'Core Rhino';
     &__logo {
-      margin: 70px 0 40px 0;
+      margin: 50px 0 40px 0;
       z-index: 1;
     }
     &__eco {
@@ -71,7 +71,10 @@ export default {
       margin: 30px 0 20px 0;
       color: #f0f0f0;
       font-size: 15px;
-      text-align: justify;
+      text-align: right;
+    }
+    .left, .right {
+      margin-top: 5mm;
     }
 
   }

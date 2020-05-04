@@ -25,7 +25,7 @@
     <div class="offer__section">
       <h1> Гранула рыболовная "Ароматизированная" <span>Диаметр: 8 мм, Растворение: 2-3 часа</span> </h1>
         <h2 class="offer__sub">
-          Ароматы для Карпа.
+          Гранула рыболовная для Карпа.
         </h2>
         <p class="offer__composition">
           <b>Состав:</b> Кукуруза*, горох*, пшеница*, соя*, бисквитная крошка, конопля*, жмых льняной, бетаин, ароматизатор, краситель, подсластитель. * – экструдированные.
@@ -85,7 +85,7 @@
         </el-row>
 
         <h2 class="offer__sub">
-          Ароматы для Амура.
+          Гранула рыболовная для Амура.
         </h2>
         <p class="offer__composition">
           <b>Состав:</b> Травяная мука люцерны, кукуруза экструдированная, конопля экструдированная, жмых льняной, бетаин, ароматизатор, краситель, подсластитель.
@@ -238,56 +238,11 @@
           </el-col>
         </el-row>
 
-        <br/><br/><br/>
-
-        <h1>Мука экструдированная (бойлостроение)</h1>
-        <el-row  class="offer__header" type="flex">
-          <el-col :span="20">
-          </el-col>
-          <el-col class="offer__price" :span="4">
-            ЦЕНА (руб)
-          </el-col>
-        </el-row>
-        <el-row class="offer__header" type="flex">
-          <el-col :span="20">
-            название
-          </el-col>
-          <el-col :span="4" class="offer__price">
-            5 кг
-          </el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="20">Мука экструдированного гороха</el-col>
-          <el-col :span="4" class="offer__price">300</el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="20">Мука экструдированной кукурузы</el-col>
-          <el-col :span="4" class="offer__price">300</el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="20">Мука экструдированной пшеницы</el-col>
-          <el-col :span="4" class="offer__price">300</el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="20">Мука экструдированной сои полножирной</el-col>
-          <el-col :span="4" class="offer__price">350</el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="20">Мука экструдированной сои обезжиренной</el-col>
-          <el-col :span="4" class="offer__price">350</el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="20">Мука экструдированной конопли полножирной</el-col>
-          <el-col :span="4" class="offer__price">700</el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="20">Мука экструдированной конопли обезжиренной</el-col>
-          <el-col :span="4" class="offer__price">700</el-col>
-        </el-row>
+        <br/><br/>
 
         <h1>Прикормка рыболовная (сыпуха)</h1>
         <h2 class="offer__sub">
-          Ароматы для Лещ/Плотва (смесь среднего помола)
+          Прикормка рыболовная (сыпуха): ЛЕЩ/ПЛОТВА (смесь среднего помола)
         </h2>
          <p class="offer__composition">
           <b>Состав:</b> Сухарь панировочный, бисквитная крошка, кукурузная крупа, конопля экструдированная, гороховая шелуха, жмых подсолнечный, жмых льняной, гороховая крупа, орехи, ароматизатор, краситель, подсластитель.
@@ -323,7 +278,51 @@
           <el-col :span="2" class="offer__price">-</el-col>
           <el-col :span="2" class="offer__price">-</el-col>
         </el-row>
-        <h2 class="offer__sub">Ароматы для Уклейки (смесь мелкого помола)</h2>
+
+
+        <h2 class="offer__sub">
+          Прикормка рыболовная (сыпуха) КАРП/КАРАСЬ
+          (смесь среднего помола с крупными включениями)
+        </h2>
+         <p class="offer__composition">
+          <b>Состав:</b> Сухарь панировочный, бисквитная крошка, кукурузная крупа, конопля экструдированная, кукурузные хлопья, гороховая шелуха, жмых подсолнечный, жмых льняной, гороховая крупа, орехи, подсластитель.
+        </p>
+        <el-row  class="offer__header" type="flex">
+          <el-col :span="20">
+          </el-col>
+          <el-col class="offer__price" :span="6">
+            ЦЕНА (руб)
+          </el-col>
+        </el-row>
+        <el-row class="offer__header" type="flex">
+          <el-col :span="6">название</el-col>
+          <el-col :span="6">аромат</el-col>
+          <el-col :span="6">цвет</el-col>
+          <el-col :span="2" class="offer__price">1 кг</el-col>
+          <el-col :span="2" class="offer__price">3 кг</el-col>
+          <el-col :span="2" class="offer__price">5 кг</el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="6">Base Carp</el-col>
+          <el-col :span="6">без аромата</el-col>
+          <el-col class="offer__color" :span="6">без красителя</el-col>
+          <el-col :span="2" class="offer__price">140</el-col>
+          <el-col :span="2" class="offer__price">390</el-col>
+          <el-col :span="2" class="offer__price">650</el-col>
+        </el-row>
+        <el-row type="flex" v-for="item in lureCarp" :key="item.name">
+          <el-col :span="6">{{item.name}}</el-col>
+          <el-col :span="6">{{item.aroma}}</el-col>
+          <el-col class="offer__color" :style="{backgroundColor: item.background}" :span="6">{{item.color}}</el-col>
+          <el-col :span="2" class="offer__price">150</el-col>
+          <el-col :span="2" class="offer__price">-</el-col>
+          <el-col :span="2" class="offer__price">-</el-col>
+        </el-row>
+
+        <br/><br/><br/><br/><br/>
+
+        <h1>Прикормка рыболовная (сыпуха)</h1>
+        <h2 class="offer__sub">Прикормка рыболовная (сыпуха): УКЛЕЙКА (смесь мелкого помола)</h2>
          <p class="offer__composition">
           <b>Состав:</b> Сухарь панировочный, бисквитная крошка, кукурузная крупа, конопля экструдированная, гороховая шелуха, жмых подсолнечный, жмых льняной, гороховая крупа, орехи, ароматизатор, краситель, подсластитель.
         </p>
@@ -350,48 +349,9 @@
           <el-col :span="2" class="offer__price">-</el-col>
           <el-col :span="2" class="offer__price">-</el-col>
         </el-row>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <h2 class="offer__sub">
-          Ароматы для карп/карась
-          (смесь среднего помола с крупными включениями)
-        </h2>
-         <p class="offer__composition">
-          <b>Состав:</b> Сухарь панировочный, бисквитная крошка, кукурузная крупа, конопля экструдированная, кукурузные хлопья, гороховая шелуха, жмых подсолнечный, жмых льняной, гороховая крупа, орехи, подсластитель.
-        </p>
-        <el-row  class="offer__header" type="flex">
-          <el-col :span="20">
-          </el-col>
-          <el-col class="offer__price" :span="6">
-            ЦЕНА (руб)
-          </el-col>
-        </el-row>
-        <el-row class="offer__header" type="flex">
-          <el-col :span="6">название</el-col>
-          <el-col :span="6">аромат</el-col>
-          <el-col :span="6">цвет</el-col>
-          <el-col :span="2" class="offer__price">1 кг</el-col>
-          <el-col :span="2" class="offer__price">3 кг</el-col>
-          <el-col :span="2" class="offer__price">5 кг</el-col>
-        </el-row>
-        <el-row type="flex">
-          <el-col :span="6">Base Carp</el-col>
-          <el-col :span="6">без аромата</el-col>
-          <el-col class="offer__color" :span="6">без красителя</el-col>
-          <el-col :span="2" class="offer__price">90</el-col>
-          <el-col :span="2" class="offer__price">240</el-col>
-          <el-col :span="2" class="offer__price">400</el-col>
-        </el-row>
-        <el-row type="flex" v-for="item in lureCarp" :key="item.name">
-          <el-col :span="6">{{item.name}}</el-col>
-          <el-col :span="6">{{item.aroma}}</el-col>
-          <el-col class="offer__color" :style="{backgroundColor: item.background}" :span="6">{{item.color}}</el-col>
-          <el-col :span="2" class="offer__price">90</el-col>
-          <el-col :span="2" class="offer__price">-</el-col>
-          <el-col :span="2" class="offer__price">-</el-col>
-        </el-row>
 
         <h2 class="offer__sub">
-          Прикормка рыболовная с рыбной мукой
+          Прикормка рыболовная (сыпуха): с РЫБНОЙ МУКОЙ
         </h2>
         <p class="offer__composition">
           <b>Состав:</b> Сухарь панировочный, бисквитная крошка, рыбная мука, кукурузная крупа, конопля экструдированная, кукурузные хлопья, гороховая шелуха, жмых подсолнечный, жмых льняной, гороховая крупа, орехи, ароматизатор, краситель, подсластитель.
@@ -439,7 +399,52 @@
           <el-col :span="2" class="offer__price">-</el-col>
           <el-col :span="2" class="offer__price">-</el-col>
         </el-row>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+        <h1>Мука экструдированная (бойлостроение)</h1>
+        <el-row  class="offer__header" type="flex">
+          <el-col :span="20">
+          </el-col>
+          <el-col class="offer__price" :span="4">
+            ЦЕНА (руб)
+          </el-col>
+        </el-row>
+        <el-row class="offer__header" type="flex">
+          <el-col :span="20">
+            название
+          </el-col>
+          <el-col :span="4" class="offer__price">
+            5 кг
+          </el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="20">Мука экструдированного гороха</el-col>
+          <el-col :span="4" class="offer__price">300</el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="20">Мука экструдированной кукурузы</el-col>
+          <el-col :span="4" class="offer__price">300</el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="20">Мука экструдированной пшеницы</el-col>
+          <el-col :span="4" class="offer__price">300</el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="20">Мука экструдированной сои полножирной</el-col>
+          <el-col :span="4" class="offer__price">350</el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="20">Мука экструдированной сои обезжиренной</el-col>
+          <el-col :span="4" class="offer__price">350</el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="20">Мука экструдированной конопли полножирной</el-col>
+          <el-col :span="4" class="offer__price">700</el-col>
+        </el-row>
+        <el-row type="flex">
+          <el-col :span="20">Мука экструдированной конопли обезжиренной</el-col>
+          <el-col :span="4" class="offer__price">700</el-col>
+        </el-row>
+
         <h1>Масло растительное (нерафинированное)</h1>
         <el-row  class="offer__header" type="flex">
           <el-col :span="12">
@@ -475,9 +480,10 @@
           <el-col :span="6" class="offer__price">70</el-col>
         </el-row>
 
-        <h1>Ароматизаторы</h1>
+        <br/><br/>
+        <h1>Арома Комплекс</h1>
         <p class="offer__composition">
-          <b>Состав:</b> Глицерин, аминокислотный комплекс, ароматизатор, краситель.
+          <b>Состав:</b> Глицерин, бетаин, аминокислотный комплекс, ароматизатор, краситель, подсластитель.
         </p>
 
         <el-row class="offer__header" type="flex">
@@ -494,9 +500,9 @@
           <el-col :span="6">{{item.name}}</el-col>
           <el-col :span="8">{{item.aroma}}</el-col>
           <el-col :span="6" class="offer__color" :style="{backgroundColor: item.background}">{{item.color}}</el-col>
-          <el-col :span="4" class="offer__price">160</el-col>
+          <el-col :span="4" class="offer__price">170</el-col>
         </el-row>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <h1>Меласса свекловичная</h1>
         <p class="offer__composition">
           <b>Состав:</b> Меласса свекловичная, ароматизатор.
@@ -558,7 +564,7 @@
         <el-row type="flex">
           <el-col :span="8">Tiger Nut</el-col>
           <el-col :span="12">Тигровый орех</el-col>
-          <el-col :span="4" class="offer__price">100</el-col>
+          <el-col :span="4" class="offer__price">140</el-col>
         </el-row>
         <el-row type="flex">
           <el-col :span="8">Hot Spices </el-col>
@@ -721,7 +727,7 @@ export default {
       },
       {
         name: 'White Fish',
-        aroma: 'Монстр Краб',
+        aroma: 'Белая рыба',
         color: 'Коричневый',
         background: brown
       },
@@ -857,7 +863,7 @@ export default {
       background: brown
     }, {
       name: 'Squid',
-      aroma: 'Белая рыба',
+      aroma: 'Кальмар',
       color: 'Коричневый',
       background: brown
     }]
@@ -982,7 +988,7 @@ export default {
     }
     h1 {
       font-size: 18px;
-      margin: 50px 0 0 0;
+      margin: 30px 0 0 0;
       border-bottom: 1px solid #999;
       padding-bottom: 6px;;
       span {
@@ -1009,7 +1015,7 @@ export default {
       text-align: center;
     }
     &__sub {
-      margin: 12px 0;
+      margin: 40px 0 12px 0;
       font-size: 16px;
     }
     &__composition {
