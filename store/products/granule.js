@@ -124,6 +124,7 @@ export const state = () => ({
     diameters: ['4мм', '8мм'],
     fishes: ['Карп', 'Карась'],
     color: 'Красный',
+    background: 'red',
     aroma: 'Клубника со сливками',
     route:'products/granule', // не менять
     img: '/images/mock.png' // не менять
