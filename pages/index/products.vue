@@ -19,13 +19,11 @@
 </template>
 
 <script>
-  import categories from '../../store/categories.js'
   export default {
     components: {
     },
     data() {
       return {
-        categories: categories
       }
     }
   }
