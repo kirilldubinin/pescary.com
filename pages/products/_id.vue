@@ -13,9 +13,9 @@
         3xl:grid-cols-5 2xl:gap-4 2xl:m-4
         4xl:grid-cols-6 2xl:gap-4 2xl:m-4"
       >
-        <nuxt-link :to="'/products/' + category + '/' + product.code"
+        <nuxt-link :to="'/products/' + category + '/' + product._id"
           class="product transition duration-150 ease-in-out cursor-pointer w-56 px-2 pt-4 pb-4 hover:shadow-lg border rounded"
-          :key="product.id" v-for="product in products">
+          :key="product._id" v-for="product in products">
           <img class="object-cover h-48 w-40 mx-auto rounded-md" :src="product.img"/>
           <div class="">
             <h2 class="product__name transition duration-150 ease-in-out text-xl mt-3 mb-2 text-center font-baloo">{{product.name}}</h2>
