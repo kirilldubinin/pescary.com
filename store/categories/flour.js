@@ -1,4 +1,8 @@
 export const state = () => ({
+  name: 'БОЙЛОСТРОЕНИЕ',
+  shortName: 'БОЙЛОСТРОЕНИЕ',
+  route:'/pellets',
+  img: '/images/mock2.png',
   items: [{
     id: 1, // не менять
     type: 'flour', // не менять

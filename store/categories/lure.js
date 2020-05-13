@@ -1,4 +1,8 @@
 export const state = () => ({
+  name: 'Прикормка рыболовная',
+  shortName: 'сыпуха',
+  route:'/products/lure',
+  img: '/images/mock.png',
   items: [{
     _id: 683603,
     type: 'lure', // не менять

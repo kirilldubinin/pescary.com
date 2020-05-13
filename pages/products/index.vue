@@ -9,9 +9,11 @@
           <nuxt-link :to="product.route" class="hover:text-orange-500">
             <img class="object-cover h-48 w-full rounded-lg"
               :src="product.img"
-              :title="product.label"
-              :alt="product.label"/>
-            <h2 class="transition duration-150 ease-in-out mt-8 text-center text-gray-800 tracking-wider">{{product.label}}</h2>
+              :title="product.shortName"
+              :alt="product.shortName"/>
+            <h2 class="transition duration-150 ease-in-out mt-8 text-center text-gray-800 tracking-wider">
+              {{product.shortName}}
+            </h2>
           </nuxt-link>
         </div>
       </div>
@@ -28,8 +30,9 @@
       MainHeader
     },
     data() {
+      console.log('Object.values(this.$store.state.categories)', Object.values(this.$store.state.categories))
       return {
-        categories: categories
+        categories: Object.values(this.$store.state.categories)
       }
     }
   }

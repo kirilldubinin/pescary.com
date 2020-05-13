@@ -1,4 +1,8 @@
 export const state = () => ({
+  name: 'ГРАНУЛА',
+  shortName: 'ГРАНУЛА',
+  route:'/products/granule',
+  img: '/images/mock2.png',
   items: [{
     _id: 777683, // не менять
     type: 'granule', // не менять
