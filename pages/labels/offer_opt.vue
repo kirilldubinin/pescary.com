@@ -279,7 +279,7 @@
           <el-col :span="2" class="offer__price">-</el-col>
         </el-row>
 
-
+        <br/><br/>
         <h2 class="offer__sub">
           Прикормка рыболовная (сыпуха) КАРП/КАРАСЬ
           (смесь среднего помола с крупными включениями)
@@ -890,12 +890,6 @@ export default {
       {
         name: 'Tutti Frutti',
         aroma: 'Тутти-Фрутти',
-        color: 'Красный',
-        background: red
-      },
-      {
-        name: 'Milk Chocolate ',
-        aroma: 'Молочный шоколад',
         color: 'Красный',
         background: red
       },
