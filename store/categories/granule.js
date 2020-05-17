@@ -1,8 +1,9 @@
 export const state = () => ({
+  code: 'granule',
   name: 'ГРАНУЛА',
   shortName: 'ГРАНУЛА',
   route:'/products/granule',
-  img: '/images/mock2.png',
+  img: '/images/granule/main/product.png',//
   items: [{
     _id: 777683, // не менять
     type: 'granule', // не менять
@@ -25,10 +26,10 @@ export const state = () => ({
     sizes: ['1кг', '5кг'],
     diameters: ['4мм', '8мм'],
     fishes: ['Карп', 'Карась'],
-    color: 'none',
+    color: 'Без красителя',
     aroma: 'Конопля экструдированная',
     route:'products/granule', // не менять
-    img: '/images/mock.png' // не менять
+    img: '/images/granule/pure-hemp-1.png' // не менять
   }, {
 	  _id: 606097, // не менять
     type: 'granule', // не менять
@@ -50,7 +51,7 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     diameters: ['4мм', '8мм'],
     fishes: ['Карп', 'Карась'],
-    color: 'none',
+    color: 'Без красителя',
     aroma: 'Горох экструдированный',
     route:'products/granule', // не менять
     img: '/images/mock.png' // не менять
@@ -76,7 +77,7 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     diameters: ['4мм', '8мм'],
     fishes: ['Карп', 'Карась'],
-    color: 'none',
+    color: 'Без красителя',
     aroma: 'Кукуруза экструдированная',
     route:'products/granule', // не менять
     img: '/images/mock.png' // не менять
@@ -101,7 +102,7 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     diameters: ['4мм', '8мм'],
     fishes: ['Карп', 'Карась'],
-    color: 'none',
+    color: 'Без красителя',
     aroma: 'Горох и Кукуруза экструдированные',
     route:'products/granule', // не менять
     img: '/images/mock.png' // не менять

@@ -4,6 +4,7 @@ export const state = () => ({
   orange: 'rgb(245, 155, 44)',
   white: 'rgb(241, 241, 241)',
   brown: '#674949',
-  green: '#467d46'
+  green: '#467d46',
+  black: '#555'
 })
 

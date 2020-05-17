@@ -1,5 +1,5 @@
 <template>
-  <section class="breadcrumbs text-xs text-gray-500 m-4">
+  <section class="breadcrumbs text-xs text-gray-500 m-4 ml-10">
     <ul class="list-none">
       <li class="list-none inline mr-2 hover:underline"  v-for="item in breadcrumbs" :key="item.code">
         <nuxt-link :to="item.url" class="">

@@ -1,4 +1,5 @@
 export const state = () => ({
+  code: 'pellets',
   name: 'ПЕЛЛЕТС',
   shortName: 'ПЕЛЛЕТС',
   route:'/pellets',
@@ -17,7 +18,7 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     diameters: ['4мм', '8мм', '10мм'],
     fishes: ['Карп', 'Карась'],
-    color: 'none',
+    color: 'Без красителя',
     aroma: 'none',
     img: '/images/mock.png' // не менять
   }, {
@@ -34,7 +35,7 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     diameters: ['4мм', '8мм', '10мм'],
     fishes: ['Карп', 'Карась'],
-    color: 'none',
+    color: 'Без красителя',
     aroma: 'none',
     img: '/images/mock.png' // не менять
   }, {
@@ -51,8 +52,9 @@ export const state = () => ({
     sizes: ['1кг', '5кг', '20кг'],
     diameters: ['4мм', '8мм', '10мм'],
     fishes: ['Карп', 'Карась'],
-    color: 'none',
+    color: 'Без красителя',
     aroma: 'none',
     img: '/images/mock.png' // не менять
   }]
 })
+

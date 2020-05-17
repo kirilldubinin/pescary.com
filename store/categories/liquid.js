@@ -1,8 +1,9 @@
 export const state = () => ({
+  code: 'liquid',
   name: 'ЛИКВИДЫ',
   shortName: 'ЛИКВИДЫ',
   route:'/pellets',
-  img: '/images/mock.png',
+  img: '/images/liquid/main/product.png',
   items: [{
     id: 1, // не менять
     type: 'liquid', // не менять

@@ -18,9 +18,7 @@
     },
     data() {
       return {
-        teams: [{
-          name: 'Горький 52'
-        }]
+        teams: []
       }
     }
   }

@@ -89,7 +89,6 @@
       }
     },
     data() {
-      debugger;
       const _id = this.$route.params.id
       const category = this.$route.params.category
       const product = this.$store.state.categories[category].items.filter( item => { return item._id === +_id })[0]
