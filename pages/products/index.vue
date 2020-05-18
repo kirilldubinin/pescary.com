@@ -1,6 +1,6 @@
 <template>
-  <section class="pt-20 category">
-    <MainHeader class="h-20"/>
+  <section class="pt-0 sm:pt-20 category">
+    <MainHeader class="h-auto sm:h-20"/>
     <section class="w-full mx-auto mt-10 max-w-6xl">
       <h2 class="uppercase text-center text-gray-700 text-3xl tracking-widest">продукты</h2>
       <div class="p-12 pt-10 w-full grid
@@ -36,10 +36,10 @@
       const sort = [
         'lure',
         'granule',
-        'pellets',
+        //'pellets',
         'liquid',
-        'flour',
-        'other'
+        //'flour',
+        //'other'
       ]
       const categories = Object.values(this.$store.state.categories).sort
       return {

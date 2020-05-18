@@ -1,20 +1,19 @@
 <template>
-  <section class="index pt-20">
+  <section class="index pt-0 sm:pt-20">
     <MainHeader class="h-20"/>
     <Breadcrumbs :breadcrumbs="breadcrumbs"/>
-    <section class="w-full max-w-6xl mx-auto font-montserrat flex">
-      <div class="flex-initial w-1/2 mt-10">
-        <img class="object-cover h-full mx-auto rounded-md"
-                :src="'/images/' + category + '/sm/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg'"/>
+    <section class="w-full max-w-6xl mx-auto font-montserrat block sm:flex">
+      <div class="flex-initial w-full sm:w-1/2 mt-10">
+        <img class="object-cover h-full mx-auto rounded-md" :src="getImagePath(category, product)"/>
       </div>
-      <div class="flex-initial w-1/2 ml-12 mt-8">
-        <p class="text-xs text-gray-500">{{title.main}}</p>
+      <div class="flex-initial w-full sm:w-1/2 ml-2 sm:ml-12 mt-8">
+        <p class="text-xs text-gray-500">{{product.subCategory || title.main}}</p>
         <div class="flex relative">
-          <h2 class="text-3xl flex-initial text-gray-800 font-baloo mr-16 tracking-wide">
-            {{product.name}}
+          <h2 :class="{'font-baloo': category !== 'liquid'}" class="text-3xl flex-initial text-gray-800 mr-16 tracking-wide">
+            {{product.type === 'aroma' || product.type === 'molasses' ? product.aroma : product.name}}
             <p class="text-xs text-gray-500">{{product._id}}</p>
           </h2>
-          <button v-on:click="add()" class="bg-blue-500 hover:bg-blue-700 h-8 text-white text-xs mt-2 py-2 px-4 rounded">
+          <button v-on:click="add()" class="bg-blue-500 hidden hover:bg-blue-700 h-8 text-white text-xs mt-2 py-2 px-4 rounded">
             В корзину
           </button>
         </div>
@@ -46,7 +45,7 @@
           <span class="font-bold">{{product.color === 'none' ? 'без красителя' : product.color }}</span>
         </p>
 
-        <p class="text-xs text-gray-800 mt-4">
+        <p class="text-xs text-gray-800 mt-4" v-if="product.fishes">
           <label class="">Рыба:</label>
           <span class="font-bold">{{product.fishes.join(', ')}}</span>
         </p>
@@ -59,9 +58,7 @@
         </p>
 
         <p class="text-xs text-justify text-gray-800 mt-4">
-          <span class="leading-loose">
-            {{product.description}}
-          </span>
+          <span class="leading-loose" v-html="product.description"/>
         </p>
       </div>
     </section>
@@ -83,6 +80,17 @@
       },
       add: function (event, item) {
 
+      },
+      getImagePath: (category, product) => {
+        if (category === 'liquid') {
+          if (product.type === 'molasses') {
+            return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-1.jpg'
+          } else if (product.type === 'aroma') {
+            return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-0.5.jpg'
+          }
+        } else {
+          return '/images/' + category + '/sm/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg'
+        }
       }
     },
     data() {

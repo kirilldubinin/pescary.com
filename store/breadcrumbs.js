@@ -32,6 +32,23 @@ export const state = () => ({
       url:"/products/granule",
       code: 'granule'
     }
+  ],
+  liquid: [
+    {
+      name: 'Главная',
+      url:"/",
+      code: 'home'
+    },
+    {
+      name: 'Продукты',
+      url:"/products",
+      code: 'products'
+    },
+    {
+      name: 'Ликвиды',
+      url:"/products/liquid",
+      code: 'liquid'
+    }
   ]
 })
 

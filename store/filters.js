@@ -1,6 +1,7 @@
 export const state = () => ({
   lure: [],
-  granule: []
+  granule: [],
+  liquid: []
 })
 
 export const mutations = {

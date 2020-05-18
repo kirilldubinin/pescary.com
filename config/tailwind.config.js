@@ -18,6 +18,7 @@ module.exports = {
         '72': '18rem'
       },
       screens: {
+        'xs': '200px',
         '2xl': '1440px',
         '3xl': '1640px',
         '4xl': '1840px'
