@@ -266,7 +266,7 @@
           <el-col :span="6">Base Bream</el-col>
           <el-col :span="6">без аромата</el-col>
           <el-col class="offer__color" :span="6">без красителя</el-col>
-          <el-col :span="2" class="offer__price">90</el-col>
+          <el-col :span="2" class="offer__price">85</el-col>
           <el-col :span="2" class="offer__price">240</el-col>
           <el-col :span="2" class="offer__price">400</el-col>
         </el-row>
@@ -306,15 +306,15 @@
           <el-col :span="6">Base Carp</el-col>
           <el-col :span="6">без аромата</el-col>
           <el-col class="offer__color" :span="6">без красителя</el-col>
-          <el-col :span="2" class="offer__price">140</el-col>
-          <el-col :span="2" class="offer__price">390</el-col>
-          <el-col :span="2" class="offer__price">650</el-col>
+          <el-col :span="2" class="offer__price">85</el-col>
+          <el-col :span="2" class="offer__price">240</el-col>
+          <el-col :span="2" class="offer__price">400</el-col>
         </el-row>
         <el-row type="flex" v-for="item in lureCarp" :key="item.name">
           <el-col :span="6">{{item.name}}</el-col>
           <el-col :span="6">{{item.aroma}}</el-col>
           <el-col class="offer__color" :style="{backgroundColor: item.background}" :span="6">{{item.color}}</el-col>
-          <el-col :span="2" class="offer__price">150</el-col>
+          <el-col :span="2" class="offer__price">90</el-col>
           <el-col :span="2" class="offer__price">-</el-col>
           <el-col :span="2" class="offer__price">-</el-col>
         </el-row>
