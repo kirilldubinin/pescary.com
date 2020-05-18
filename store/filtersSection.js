@@ -9,6 +9,12 @@ export const state = () => ({
       name: 'Ароматизатор',
       code: 'aroma'
     }],
-  granule: []
+  granule: [{
+    name: 'Цвет',
+    code: 'color'
+  }, {
+    name: 'Ароматизатор',
+    code: 'aroma'
+  }]
 })
 

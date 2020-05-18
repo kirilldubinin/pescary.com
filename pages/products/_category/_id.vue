@@ -4,7 +4,8 @@
     <Breadcrumbs :breadcrumbs="breadcrumbs"/>
     <section class="w-full max-w-6xl mx-auto font-montserrat flex">
       <div class="flex-initial w-1/2 mt-10">
-        <img class="w-full object-cover rounded" src="/images/mock4.png"/>
+        <img class="object-cover h-full mx-auto rounded-md"
+                :src="'/images/' + category + '/sm/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg'"/>
       </div>
       <div class="flex-initial w-1/2 ml-12 mt-8">
         <p class="text-xs text-gray-500">{{title.main}}</p>
@@ -13,10 +14,6 @@
             {{product.name}}
             <p class="text-xs text-gray-500">{{product._id}}</p>
           </h2>
-          <!--div title="добавить в корзину" class="flex-initial text-center cursor-pointer hover:shadow-md hover:bg-gray-300 rounded-full p-4 transition duration-150 ease-in-out">
-            <svg class="h-8 w-8 pr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512.008 512.008" style="enable-background:new 0 0 512.008 512.008;" xml:space="preserve"> <path style="fill:#FFC107;" d="M508.288,85.764c-3.04-3.648-7.552-5.76-12.288-5.76H107.52c-4.96,0-9.664,2.304-12.704,6.24 c-3.008,3.968-4.032,9.088-2.752,13.888l51.2,191.36c1.888,7.04,8.224,11.872,15.456,11.872c0.256,0,0.544,0,0.8-0.032l305.28-15.36 c7.392-0.384,13.6-5.792,14.944-13.088l32-176C512.608,94.18,511.328,89.38,508.288,85.764z"/> <g> <circle style="fill:#455A64;" cx="208" cy="448.004" r="48"/> <circle style="fill:#455A64;" cx="400" cy="448.004" r="48"/> <path style="fill:#455A64;" d="M432,368.004H176c-7.264,0-13.6-4.864-15.456-11.872L78.272,48.004H16c-8.832,0-16-7.168-16-16 s7.168-16,16-16h74.56c7.264,0,13.6,4.864,15.456,11.872l82.272,308.128H432c8.832,0,16,7.168,16,16S440.832,368.004,432,368.004z"/> </g> <g> <path style="fill:#FAFAFA;" d="M320,256.004c-8.832,0-16-7.168-16-16v-96c0-8.832,7.168-16,16-16s16,7.168,16,16v96 C336,248.836,328.832,256.004,320,256.004z"/> <path style="fill:#FAFAFA;" d="M368,208.004h-96c-8.832,0-16-7.168-16-16s7.168-16,16-16h96c8.832,0,16,7.168,16,16 S376.832,208.004,368,208.004z"/> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
-
-          </div-->
           <button v-on:click="add()" class="bg-blue-500 hover:bg-blue-700 h-8 text-white text-xs mt-2 py-2 px-4 rounded">
             В корзину
           </button>
@@ -93,8 +90,9 @@
       const category = this.$route.params.category
       const product = this.$store.state.categories[category].items.filter( item => { return item._id === +_id })[0]
       return {
+        category: category,
         title: this.$store.state.title[category],
-        breadcrumbs: this.$store.state.breadcrumbs[category],
+        breadcrumbs: [...this.$store.state.breadcrumbs[category], ...[{code: 'product', name: product.name + '(' + _id + ')'}]],
         currentSize: product.sizes[0],
         currentPrice: product.prices[0],
         product: product

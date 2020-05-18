@@ -21,7 +21,7 @@ export const state = () => ({
     currency: 'руб.',
     sizes: ['1кг', '3кг', '5кг'],
     fishes: ['Карп', 'Карась'],
-    aroma: 'Без аромата',
+    aroma: 'Без ароматизатора',
     color: 'Без красителя',
     route:'products/lure', // не менять
     img: '/images/lure/ablet-min.jpg' // не менять
@@ -41,7 +41,7 @@ export const state = () => ({
     fishes: ['Карп', 'Карась'],
     color: 'Черный',
     background: 'black',
-    aroma: 'Без аромата',
+    aroma: 'Без ароматизатора',
     route:'products/lure',
     img: '/images/mock.png'
   }, {
@@ -65,7 +65,7 @@ export const state = () => ({
     route:'products/lure',
     img: '/images/mock.png'
     }, {
-  id: 1,
+    _id: 878587,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -86,7 +86,7 @@ export const state = () => ({
     route:'products/lure',
     img: '/images/mock.png'
    }, {
-  id: 1,
+    _id: 553329,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -107,7 +107,7 @@ export const state = () => ({
     route:'products/lure',
     img: '/images/mock.png'
   }, {
-  id: 1,
+    _id: 371050,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -127,8 +127,8 @@ export const state = () => ({
     aroma: 'Слива',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 499670,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -149,7 +149,7 @@ export const state = () => ({
     route:'products/lure',
     img: '/images/mock.png'
   }, {
-  id: 1,
+    _id: 640688,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -169,8 +169,8 @@ export const state = () => ({
     background: 'yellow',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 412628,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -190,8 +190,8 @@ export const state = () => ({
     aroma: 'Шелковица',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-    id: 1,
+  }, {
+    _id: 134304,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -211,8 +211,8 @@ export const state = () => ({
     aroma: 'Банан',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 620799,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -232,8 +232,8 @@ export const state = () => ({
     aroma: 'Тигровый орех',
     route:'products/lure',
     img: '/images/mock.png'
-     }, {
-  id: 1,
+  }, {
+    _id: 105381,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -253,8 +253,8 @@ export const state = () => ({
     aroma: 'Острые специи',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 905129,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -274,8 +274,8 @@ export const state = () => ({
     aroma: 'Чеснок',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 384880,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -295,8 +295,8 @@ export const state = () => ({
     aroma: 'Монстр Краб',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 895460,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -316,8 +316,8 @@ export const state = () => ({
     aroma: 'Белая рыба',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 198586,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -337,8 +337,8 @@ export const state = () => ({
     aroma: 'Кальмар',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 573336,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -355,11 +355,11 @@ export const state = () => ({
     sizes: ['1кг'],
     fishes: ['Лещ', 'Плотва'],
     color: 'Без красителя',
-    aroma: 'Без аромата',
+    aroma: 'Без ароматизатора',
     route:'products/lure',
     img: '/images/mock.png'
-     }, {
-  id: 1,
+  }, {
+    _id: 605204,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -379,8 +379,8 @@ export const state = () => ({
     aroma: 'Сладкое печенье',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 562841,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -400,8 +400,8 @@ export const state = () => ({
     aroma: 'Дыня',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 255701,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -421,30 +421,8 @@ export const state = () => ({
     aroma: 'Анис',
     route:'products/lure',
     img: '/images/mock.png'
-    }, /*{
-    id: 1,
-    type: 'lure',
-    category: 'Прикормка рыболовная (Сыпуха)',
-    code: '551512',
-    name: 'Coriander',
-    description: `Прикормка среднего помола красного цвета.
-    Подходит для ловли леща, плотвы и другой речной рыбы.
-    Идеально для рек, каналов и водохранилищ.
-    Создана для ловли в теплое время года.
-    Используется для наполнения фидерных кормушек, а так же при кормлении шарами. За счет различной плотности сжатия шаров прикормки можно добиться различной скорости распадения их на дне`,
-    composition: `Сухарь панировочный, бисквитная крошка, кукурузная крупа, конопля экструдированная, гороховая шелуха, жмых подсолнечный, жмых льняной, гороховая крупа, орехи, ароматизатор (Кориандр), краситель, подсластитель`,
-    prices: ['150'],
-    currency: 'руб.',
-    sizes: ['1кг'],
-    fishes: ['Лещ', 'Плотва'],
-    color: 'Красный',
-    background: 'red',
-    aroma: 'Кориандр',
-    route:'products/lure',
-    img: '/images/mock.png'
-     },*/
-    {
-    id: 1,
+  }, {
+    _id: 476829,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -464,8 +442,8 @@ export const state = () => ({
     aroma: 'Ваниль',
     route:'products/lure',
     img: '/images/mock.png'
-     }, {
-  id: 1,
+  }, {
+    _id: 141979,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -485,8 +463,8 @@ export const state = () => ({
     aroma: 'Молочный шоколад',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 815646,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -506,8 +484,8 @@ export const state = () => ({
     aroma: 'Карамель',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-    id: 1,
+  }, {
+    _id: 313236,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -527,8 +505,8 @@ export const state = () => ({
     aroma: 'Прованские специи',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 732899,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -548,8 +526,8 @@ export const state = () => ({
     aroma: 'Арахис',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-    id: 1,
+  }, {
+    _id: 383592,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
@@ -569,8 +547,8 @@ export const state = () => ({
     aroma: 'Корица',
     route:'products/lure',
     img: '/images/mock.png'
-    }, {
-  id: 1,
+  }, {
+    _id: 775540,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
     code: '551512',
