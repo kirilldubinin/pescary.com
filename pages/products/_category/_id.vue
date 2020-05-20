@@ -81,12 +81,14 @@
       add: function (event, item) {
 
       },
-      getImagePath: (category, product) => {
+      getImagePath: (category, product) => { ///images/liquid/sm/molasses-packagestrawberry cream-1.jpg
         if (category === 'liquid') {
           if (product.type === 'molasses') {
             return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-1.jpg'
           } else if (product.type === 'aroma') {
             return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-0.5.jpg'
+          } else {
+            return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-0.4.jpg'
           }
         } else {
           return '/images/' + category + '/sm/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg'

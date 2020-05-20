@@ -10,9 +10,12 @@ export const state = () => ({
     code: 'aroma'
   }],
   granule: [{
+    name: 'Тип гранулы',
+    code: 'subCategory'
+  }, {
     name: 'Цвет',
     code: 'color'
-  }, {
+  },  {
     name: 'Ароматизатор',
     code: 'aroma'
   }],
