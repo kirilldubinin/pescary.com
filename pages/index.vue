@@ -7,23 +7,31 @@
       </div>
 
       <section class="w-full max-w-3xl mx-auto font-montserrat text-justify text-xs my-10 px-4 py-6 leading-relaxed">
-        Команда PESCARY образовалась на стыке любви к рыбной ловле и многолетнем опыте полученном в кормлении животных.
-        Мы делаем ставку на научный подход в разработке рыбных кормов и прикормок,
-        поэтому экстремально важным для нас является понимание работы каждого компонента в наших продуктах - будь то экструдированный горох, гороховая шелуха или свежевыпеченный сухарь,
-        который прямо с производтва нам доставляют в течении 2 часов после выпечки.
-        Также особым условием в создании эффективных прикормок является понимание работы пищеварения рыбы, именно потому вы можете увидеть в наших составах такие уникальные компоненты как
-        экструдированная конопля, льняной жмых или бетаин.
-        Мы руководствуемся принципами что не каждую прикормку можно бросать в воду без вреда для водных ресурсов и самой рыбы, поэтому мы настаиваем на том чтоы каждый рыбак (любитель или спортсмен) внимательно читал состав
-        перед применением, и относилса с уважением к рыбной ловле.
+        <p>
+          Команда PESCARY образовалась на стыке любви к рыбной ловле и многолетнем опыте полученном в кормлении животных.
+        </p>
+        <p>
+          Производство кормов для рыбы под брендом PESCARY, представляет собой завод, расположенный в Гороховецком районе Владимирской области, укомплектованный самым современным оборудованием, что позволяет на выходе получать корма с заданными параметрами качества. Завод выпускает корма не только для промышленного выращивания рыбы, но и лечебные корма для рыбы.
+        </p>
+        <p>
+          Мы делаем ставку на научный подход в разработке рыбных кормов и прикормок, поэтому экстремально важным для нас является понимание работы каждого компонента в наших продуктах,- будь то экструдированный горох, гороховая шелуха или свежевыпеченный сухарь, который прямо с производства нам доставляют в течение 2 часов после выпечки.
+        </p>
+        <p>
+          Особым условием в создании эффективных прикормок является понимание физиологии
+          рыбы, а если конкретнее, работы системы пищеварения рыбы, именно потому вы можете
+          увидеть в наших составах такие уникальные компоненты как экструдированная конопля,
+          льняной жмых или бетаин.
+        </p>
+        <p>
+          Мы руководствуемся теми принципами, что не каждую прикормку можно бросать в воду без вреда для аквакультуры, поэтому всегда настаиваем на том, чтобы каждый рыбак, будь он любитель или профессиональный спортсмен, внимательно читал состав перед применением, и относился с уважением к водным биоресурсам.
+        </p>
 
         <img loading="lazy"  class="w-full sm:w-1/2 mx-auto my-4 rounded-md" title="Читайте состав внимательно !" src="/images/index/img-1.png">
         <label class="block text-center text-xs text-gray-500" title="Полный состав продукта на каждой упаковке PESCARY">Полный состав продукта на каждой упаковке PESCARY</label>
       </section>
 
       <section class="w-full max-w-3xl mx-auto font-montserrat text-justify text-xs my-10 px-4 py-6 leading-relaxed">
-        Команда PESCARY не делит свои продукты на серии СПОРТ, ЛЮБИТЕЛЬ или НОВИЧОК -
-        все продукты PESCARY являются полноценными и готовыми к применению как спорстменами так и
-        людьми которые первый раз взяли удочку в руки для получения удовольствия от рыбной ловли.
+        Команда PESCARY не делит свои продукты на серии СПОРТ, ЛЮБИТЕЛЬ или НОВИЧОК - все продукты PESCARY являются полноценными и готовыми к применению как рыбаками спортсменами, так и людьми которые впервые взяли удочку в руки для получения удовольствия от рыбной ловли.
         Для удобства пользователей мы разделили наши продукты на категории, каждая из которых закрывает конкретную нишу в рыболовной ловле.
         <div class="block sm:flex justify-center mt-6">
           <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
@@ -99,16 +107,16 @@
         </p>
         <div class="block sm:flex justify-center">
           <div class="flex-1 w-3/4 sm:w-1/4 mx-auto mb-4 sm:m-4 rounded-md" title="">
-            <img loading="lazy"  class="w-full my-auto rounded-full object-cover" title="Flat Feder" src="/images/index/lure-flat-feeder-3.png"/>
-            <label class="block text-center text-xs text-gray-500">Flat Feder</label>
+            <img loading="lazy"  class="w-full my-auto rounded-full object-cover" title="Flat Feeder" src="/images/index/lure-flat-feeder-3.png"/>
+            <label class="block text-center text-xs text-gray-500">Flat Feeder</label>
           </div>
           <div class="flex-1 w-3/4 sm:w-1/4 mx-auto mb-4 sm:m-4 rounded-md" title="">
             <img loading="lazy"  class="w-full my-auto rounded-full object-cover" title="Фракция Flat Feeder" src="/images/index/lure-flat-feeder-2.png"/>
             <label class="block text-center text-xs text-gray-500">Фракция Flat Feeder</label>
           </div>
           <div class="flex-1 w-3/4 sm:w-1/4 mx-auto mb-4 sm:m-4 rounded-md" title="">
-            <img loading="lazy"  class="w-full my-auto rounded-full object-cover" title="Flat Feder" src="/images/index/lure-flat-feeder-1.png"/>
-            <label class="block text-center text-xs text-gray-500">Flat Feder</label>
+            <img loading="lazy"  class="w-full my-auto rounded-full object-cover" title="Flat Feeder" src="/images/index/lure-flat-feeder-1.png"/>
+            <label class="block text-center text-xs text-gray-500">Flat Feeder</label>
           </div>
         </div>
       </section>
@@ -174,6 +182,91 @@
         </div>
         <p>
           В состав входят следующие компоненты: сухарь панировочный, отруби пшеничные, сухое молоко, манка, бисквитная крошка, конопля экструдированная, жмых льняной, орехи, ароматизатор, краситель, подсластитель.
+        </p>
+      </section>
+
+      <section class="w-full max-w-3xl mx-auto font-montserrat text-justify text-xs my-10 px-4 py-6 leading-relaxed">
+        <h3 class="text-lg mb-2 text-center">ГРАНУЛА РЫБОЛОВНАЯ</h3>
+        <p class="">
+          Гранулу мы разделили на два вида - ECO гранула и ароматизированная гранула, но обе этих серии объеденяет то что всё
+          зерновое сырье этих гранул проходит процесс экструзии, затем измельчается и пресуется со степенью сжатия 1:10 что позволяет грануле
+          дерать под водой форму до 4 часов медленно отдавая мельчайшие частицы.
+        </p>
+
+        <h3 class="text-lg my-2 uppercase"><b>ECO</b> ГРАНУЛА</h3>
+        <p>
+          Данная серия продуктов содержит только натуральные компоненты, без ароматизаторов и красителей. Все сырье, входящее в состав гранул, прошло процесс экструдированния.
+        </p>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-full m-auto object-cover" title="ГОРОХ - экструдированный" src="/images/index/peas-extrude.png"/>
+            <label class="block text-center text-xs text-gray-500">ГОРОХ - экструдированный</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-full m-auto object-cover" title="КУКУРУЗА - экструдированная" src="/images/index/corn-extrude.png"/>
+            <label class="block text-center text-xs text-gray-500">КУКУРУЗА - экструдированная</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-full m-auto object-cover" title="ПШЕНИЦА - экструдированная" src="/images/index/hemp-extrude.png"/>
+            <label class="block text-center text-xs text-gray-500">КОНОПЛЯ - экструдированная</label>
+          </div>
+        </div>
+        <p>
+          Гранулы, впитывая воду, начинают растворяться, распространяя в воде мелкие частицы, подающие мощнейший пищевой сигнал для рыбы. Этот процесс способствует быстрому привлечению рыбы в точку ловли. После растворения гранул остается облако из взвешенных частиц экструдированного корма, что позволяет длительное время удерживать рыбу в месте кормления, без слишком быстрого её насыщения. Среднее время растворения гранул 3-4 часа.
+        </p>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-md m-auto object-cover" title="PURE PEAS - гранула экструдированной кукурузы" src="/images/index/peas-eco-granule.png"/>
+            <label class="block text-center text-xs text-gray-500">PURE PEAS - гранула экструдированного гороха</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-md m-auto object-cover" title="PURE CORN - гранула экструдированной кукурузы" src="/images/index/corn-eco-granule.png"/>
+            <label class="block text-center text-xs text-gray-500">PURE CORN - гранула экструдированной кукурузы</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-md m-auto object-cover" title="PURE HEMP - гранула экструдированной конопли" src="/images/index/hemp-eco-granule.png"/>
+            <label class="block text-center text-xs text-gray-500">PURE HEMP - гранула экструдированной конопли</label>
+          </div>
+        </div>
+
+        <h3 class="text-lg my-2 uppercase">АРОМАТИЗИРОВАННАЯ ГРАНУЛА</h3>
+        <p>
+          Данная серия продуктов содержит экструдированные зерновые (кукурузу, горох, пшеницу, сою), бисквитную крошку, льняной жмых, а так же экструдированную коноплю, бетаин и подсластитель. Гранулы дополнительно окрашены в разные цвета, для лучшей привлекательности на дне водоема, а многообразие ароматов поможет подобрать вам гранулу под конкретный водоем и условия ловли.
+        </p>
+        <p>
+          Гранулы разработаны специально для ловли крупной рыбы.
+        </p>
+        <p>
+          В состав гранулы входят очень мелкие частицы экструдированного сырья, которые прессуются на матрице со степенью сжатия 1:10, таким образом получается, что аромат "заперт" внутри гранулы, и полностью раскрывается лишь попадая в воду.
+        </p>
+        <p>
+          Благодаря тому, что гранула на 80% состоит из экструдированного сырья (исключение составляют только льняной жмых и бисквитная крошка), она обладает высокой переваримостью и бешенной аттрактивностью.
+        </p>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-full m-auto object-cover" title="ГРАНУЛА - карп (коричневая)" src="/images/index/granule-brown.png"/>
+            <label class="block text-center text-xs text-gray-500">ГРАНУЛА - КАРП (коричневая)</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-full m-auto object-cover" title="ГРАНУЛА - амур (зеленая)" src="/images/index/granule-green.png"/>
+            <label class="block text-center text-xs text-gray-500">ГРАНУЛА - АМУР (зеленая)</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-full m-auto object-cover" title="PURE HEMP - гранула экструдированной конопли" src="/images/index/granule-red.png"/>
+            <label class="block text-center text-xs text-gray-500">ГРАНУЛА - КАРП (красная)</label>
+          </div>
+        </div>
+        <p class="mt-4">
+          Данная серия гранул, подходит как для рыболовов-спортсменов, так и для любителей трофейной рыбалки благодаря длительному растворению в воде.
+        </p>
+        <p>
+          Гранулы, за счет медленной, но постоянной отдачи в воду мелких частиц корма, позволяют привлечь и долго удерживать рыбу в секторе ловли, что очень важно для рыболовов-спортсменов.
+        </p>
+        <p class="">
+          Среднее время растворения гранул диаметром 8 мм, при температуре воды 20 С, составляет 3,5-4 часа.
+        </p>
+        <p class="">
+          Можно применять вместе с донной прикормкой, спод-миксами или PVA-стиками.
         </p>
       </section>
 
