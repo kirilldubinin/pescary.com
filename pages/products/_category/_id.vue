@@ -112,7 +112,7 @@
             '/images/' + category + '/md/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg',
             '/images/' + category + '/md/' + category + '-package-' + product.name.toLowerCase() + '-1.jpg',
             '/images/' + category + '/main/' + category + '-' +
-              (!product.eco ? product.background : product.name) +
+              (!product.eco ? product.background : product.name.toLowerCase()) +
             '.png',
           ]
         }
