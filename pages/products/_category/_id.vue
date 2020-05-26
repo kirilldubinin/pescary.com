@@ -3,12 +3,11 @@
     <MainHeader class="h-20"/>
     <Breadcrumbs :breadcrumbs="breadcrumbs"/>
     <section class="w-full max-w-6xl mx-auto font-montserrat block sm:flex">
-      <el-carousel indicator-position="outside" height="600px"
-        class="h-full flex-initial w-3/4 sm:w-1/2 m-auto sm:m-10 z-0">
-        <el-carousel-item v-for="image in getImages(category, product)" :key="image">
-          <img class="object-cover h-full mx-auto rounded-md" :src="image"/>
-        </el-carousel-item>
-      </el-carousel>
+      <Carousel class=" mt-2" perPage="1">
+        <Slide class="z-0" v-for="image in getImages(category, product)" :key="image">
+          <img class="z-0 w-3/4 sm:w-1/2 mx-auto rounded-md" :src="image"/>
+        </Slide>
+      </Carousel>
       <div class="flex-initial w-full sm:w-1/2 ml-2 sm:ml-12 m-8">
         <p class="text-xs text-gray-500">{{product.subCategory || title.main}}</p>
         <div class="flex relative">
@@ -69,12 +68,15 @@
 </template>
 
 <script>
+  import { Carousel, Slide } from 'vue-carousel';
   import MainHeader from '../../../components/MainHeader.vue'
   import Breadcrumbs from '../../../components/Breadcrumbs.vue'
   export default {
     components: {
       MainHeader,
-      Breadcrumbs
+      Breadcrumbs,
+      Carousel,
+      Slide
     },
     methods: {
       setSize: function (size, index) {
