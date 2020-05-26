@@ -2,13 +2,13 @@
   <section class="index pt-0 sm:pt-20">
     <MainHeader class="h-20"/>
     <Breadcrumbs :breadcrumbs="breadcrumbs"/>
-    <section class="w-full max-w-6xl mx-auto font-montserrat block sm:flex">
-      <Carousel class=" mt-2" perPage="1">
+    <section class="w-full block sm:flex max-w-6xl mx-auto font-montserrat block sm:flex">
+      <Carousel class="mt-2 flex-1" :perPage=1>
         <Slide class="z-0" v-for="image in getImages(category, product)" :key="image">
-          <img class="z-0 w-3/4 sm:w-1/2 mx-auto rounded-md" :src="image"/>
+          <img class="z-0 w-3/4 sm:w-3/4 mx-auto rounded-md" :src="image"/>
         </Slide>
       </Carousel>
-      <div class="flex-initial w-full sm:w-1/2 ml-2 sm:ml-12 m-8">
+      <div class="flex-1 w-full sm:w-1/2 mx-4 sm:ml-12 m-8">
         <p class="text-xs text-gray-500">{{product.subCategory || title.main}}</p>
         <div class="flex relative">
           <h2 :class="{'font-baloo': category !== 'liquid'}" class="text-3xl flex-initial text-gray-800 mr-16 tracking-wide">
