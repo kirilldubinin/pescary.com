@@ -3,10 +3,13 @@
     <MainHeader class="h-20"/>
     <Breadcrumbs :breadcrumbs="breadcrumbs"/>
     <section class="w-full max-w-6xl mx-auto font-montserrat block sm:flex">
-      <div class="flex-initial w-full sm:w-1/2 mt-10">
-        <img class="object-cover h-full mx-auto rounded-md" :src="getImagePath(category, product)"/>
-      </div>
-      <div class="flex-initial w-full sm:w-1/2 ml-2 sm:ml-12 mt-8">
+      <el-carousel indicator-position="outside" height="600px"
+        class="h-full flex-initial w-3/4 sm:w-1/2 m-auto sm:m-10 z-0">
+        <el-carousel-item v-for="image in getImages(category, product)" :key="image">
+          <img class="object-cover h-full mx-auto rounded-md" :src="image"/>
+        </el-carousel-item>
+      </el-carousel>
+      <div class="flex-initial w-full sm:w-1/2 ml-2 sm:ml-12 m-8">
         <p class="text-xs text-gray-500">{{product.subCategory || title.main}}</p>
         <div class="flex relative">
           <h2 :class="{'font-baloo': category !== 'liquid'}" class="text-3xl flex-initial text-gray-800 mr-16 tracking-wide">
@@ -81,17 +84,35 @@
       add: function (event, item) {
 
       },
-      getImagePath: (category, product) => { ///images/liquid/sm/molasses-packagestrawberry cream-1.jpg
+      getImages: (category, product) => { ///images/liquid/sm/molasses-packagestrawberry cream-1.jpg
         if (category === 'liquid') {
           if (product.type === 'molasses') {
-            return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-1.jpg'
+            return [
+              '/images/' + category + '/md/' + product.type + '-package-' + product.name.toLowerCase() + '-1.jpg',
+              '/images/' + category + '/main/molasses.png'
+            ]
           } else if (product.type === 'aroma') {
-            return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-0.5.jpg'
+            return [
+              '/images/' + category + '/md/' + product.type + '-package-' + product.name.toLowerCase() + '-0.5.jpg',
+              '/images/' + category + '/main/aroma.png'
+            ]
           } else {
-            return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-0.4.jpg'
+            return ['/images/' + category + '/md/' + product.type + '-package-' + product.name.toLowerCase() + '-0.4.jpg']
           }
-        } else {
-          return '/images/' + category + '/sm/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg'
+        } else if (category === 'lure') {
+          return [
+            '/images/' + category + '/md/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg',
+            '/images/' + category + '/md/' + category + '-package-' + product.name.toLowerCase() + '-1.jpg',
+            '/images/' + category + '/main/' + category + '-' + product.background + '-' + product.fraction + '.png',
+          ]
+        } else if (category === 'granule') {
+          return [
+            '/images/' + category + '/md/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg',
+            '/images/' + category + '/md/' + category + '-package-' + product.name.toLowerCase() + '-1.jpg',
+            '/images/' + category + '/main/' + category + '-' +
+              (!product.eco ? product.background : product.name) +
+            '.png',
+          ]
         }
       }
     },

@@ -402,7 +402,6 @@
           </div>
         </div>
       </section>
-
       <section class="w-full max-w-3xl mx-auto font-montserrat text-justify text-xs my-10 px-4 py-6 leading-relaxed">
         <p class="my-2">
           Теперь, после того как вы познакомились с нашим производством и описанием линеек продуктов, перейдите в раздел
@@ -410,10 +409,8 @@
           чтобы ознакомиться с полным ассортиментом выпускаемой нами продукции и сделать заказ.
         </p>
       </section>
-
     </section>
     <nuxt-child class="max-w-full mx-auto mt-20 overflow-auto"/>
-
     <footer class="fixed text-gray-500 w-full text-center">
       ООО "ПРОКОРМ" 2013-2020
     </footer>
