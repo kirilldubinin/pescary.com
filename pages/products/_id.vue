@@ -135,7 +135,7 @@
         if (filters.length) {
           products = products.filter(product => {
             return !filters.some(filter => {
-              return product[filter.code].indexOf(filter.value) === -1
+              return !product[filter.code] || product[filter.code].indexOf(filter.value) === -1
             })
           })
         }
