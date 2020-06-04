@@ -18,7 +18,7 @@ export default {
     background: #f0f0f0;
     height: 44px;
     overflow: hidden;
-    right: 4px;
+    right: 8px;
     border-top: 4px solid #f0f0f0;
     width: 120px;
     img {

@@ -61,7 +61,7 @@ export default {
   .granule {
     padding: 0 4mm 6mm 4mm;
     width: 105mm;
-    height: 148mm;
+    height: 147mm;
     background: #1f2e35;
     text-align: center;
     font-family: 'Core Rhino';
@@ -69,7 +69,7 @@ export default {
     position: relative;
     overflow: hidden;
     &__logo {
-      margin: 76px 0 10px 0;
+      margin: 74px 0 10px 0;
       z-index: 1;
     }
     &__eco {
