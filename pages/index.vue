@@ -377,7 +377,7 @@
         <div class="block sm:flex justify-center mt-6">
           <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
             <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="МЕЛАССА - анис" src="/images/index/aroma-1.png"/>
-            <label class="block text-center text-xs text-gray-500">АРОМА КОМПЛЕКС - оранжевый</label>
+            <label class="block text-center text-xs text-gray-500">АРОМА КОМПЛЕКС - коричневый</label>
           </div>
           <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
             <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="МЕЛАССА - чеснок" src="/images/index/aroma-2.png"/>
@@ -444,7 +444,6 @@ export default {
 
   svg {
     fill: #1f2e35;
-    opacity: 0.9;
   }
 
   footer {
