@@ -38,7 +38,7 @@
         'granule',
         //'pellets',
         'liquid',
-        //'flour',
+        'flour',
         //'other'
       ]
       const categories = Object.values(this.$store.state.categories).sort

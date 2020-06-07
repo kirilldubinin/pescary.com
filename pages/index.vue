@@ -44,6 +44,12 @@
             <label class="block text-center text-xs text-gray-500">Категория - ЛИКВИДЫ</label>
           </div>
         </div>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="w-48 h-48 rounded-md m-auto object-cover" title="Категория - БОЙЛОСТРОЕНИЕ" src="/images/flour/main/product.png"/>
+            <label class="block text-center text-xs text-gray-500">Категория - БОЙЛОСТРОЕНИЕ</label>
+          </div>
+        </div>
       </section>
 
       <section class="w-full max-w-3xl mx-auto font-montserrat text-justify text-xs my-10 px-4 py-6 leading-relaxed">
@@ -402,6 +408,108 @@
           </div>
         </div>
       </section>
+      <section class="w-full max-w-3xl mx-auto font-montserrat text-justify text-xs my-10 px-4 py-6 leading-relaxed">
+        <h3 class="text-lg mb-2 text-center">БОЙЛОСТРОЕНИЕ</h3>
+        <p class="my-2">
+          Бойлостроение является вершиной карповых приманок, насадочный бойлы изобрели англичане и использовали их вместо привычной кукурузы и червей.
+          Процесс ихготовления насадочных бойлов это целое искусство и каждый рыбак имеет свой рецепт для тонущих, плавающих либо пылящих бойлов.
+          Но знания хороших рецептов и умения катать качественные бойлы недосточно для хорошего результата, как всегда все зависит от ингридиентов используемых в производстве финального продукта.
+          Именно для "бойлокатчиков" мы предлагаем серию экструдированной зерновой муки, те кто хоть раз катал бойлы знает как важна мука в составе этой насадки.
+
+        </p>
+        <p class="my-2">
+          Два професиональных экструдера общей мощностью более 100кВт позволяют нам обеспечить производство наисвежайщей экструзии в любое время, ведь те кто катает бойлы знает как важна свежесть ингридиентов и самих бойлов на финальный результат.
+        </p>
+
+        <p class="my-2">
+          Итак, что же такое экструзия ? Процесс экструзии это кратковременно одновременное повышение температуры и давления в зерне.
+          Что обеспечивает преобразование сложных молекулярных компонентов в более простые. Простыми словами это быстрое сжатие и нагрев зерна в шнеке экструдера,
+          в итоге при выходе зерна из ствола экстурдера происходит взрыв зерновых. Простой пример это кукурузный попкорн.
+          Для рыболовной ловли плюсом экструзии явлеятся ее супер натральный, мощный запах, а также соевршенно другая клейкость муки, так как крахмал в зерне перешол в простые сахара.
+          Именно это, наприме в наших ECO гранулах обеспечивает ее растворимость на уровне 4-5 часов.
+          По сути мук из экструдированных зерновых явлеятся мелкой пудрой с очень приятным запахом.
+        </p>
+
+        <h3 class="text-lg my-2 uppercase">мука экструдированной кукурузы</h3>
+        <p class="my-2">
+          Процесс изготовления муки экструдированной кукурузы происходит в несколько этапов, сначала целое (предварительно увлажненое) зерно кукурузы подается в экстудер, на выходе получается кукурузная палочка ярко желтого цвета с сильным ароматом.
+          Далее происходит процесс подсушивания палочки, после чего она подается на дробление, после дробления и просева мы получаем готовую муку.
+        </p>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КУКУРУЗА - зерно" src="/images/flour/main/grain-corn.png"/>
+            <label class="block text-center text-xs text-gray-500">КУКУРУЗА - зерно</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КУКУРУЗА - экструзия палочка" src="/images/flour/main/grain-corn-ext.png"/>
+            <label class="block text-center text-xs text-gray-500">КУКУРУЗА - экструзия палочка</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КУКУРУЗА - экструзия мука" src="/images/flour/main/corn.png"/>
+            <label class="block text-center text-xs text-gray-500">КУКУРУЗА - экструзия мука</label>
+          </div>
+        </div>
+
+        <h3 class="text-lg my-6 uppercase">мука экструдированного гороха</h3>
+        <p class="my-2">
+          Процесс изготовления муки экструдированного гороха происходит в теже этапы что и кукурузы, но на выходе из экструдера мы видем не палочку а красивые гороховые хлопья с ароматом свежесваренного горохового супа.
+        </p>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КУКУРУЗА - зерно" src="/images/flour/main/grain-peas.png"/>
+            <label class="block text-center text-xs text-gray-500">ГОРОХ - зерно</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КУКУРУЗА - экструзия хлопья" src="/images/flour/main/grain-peas-ext.png"/>
+            <label class="block text-center text-xs text-gray-500">ГОРОХ - экструзия хлопья</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КУКУРУЗА - экструзия мука" src="/images/flour/main/peas.png"/>
+            <label class="block text-center text-xs text-gray-500">ГОРОХ - экструзия мука</label>
+          </div>
+        </div>
+
+        <h3 class="text-lg my-6 uppercase">мука экструдированной пшеницы</h3>
+        <p class="my-2">
+          Наиболее сложной культурой для экструдирования является пшеница, температура ее экструдирования выше 140 градусов, а на выходе мы получаем уже сухие хлопья с приятным ароматом пекарной муки.го горохового супа.
+        </p>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="ПШЕНИЦА - зерно" src="/images/flour/main/grain-wheat.png"/>
+            <label class="block text-center text-xs text-gray-500">ПШЕНИЦА - зерно</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="ПШЕНИЦА - экструзия хлопья" src="/images/flour/main/grain-wheat-ext.png"/>
+            <label class="block text-center text-xs text-gray-500">ПШЕНИЦА - экструзия хлопья</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="ПШЕНИЦА - экструзия мука" src="/images/flour/main/wheat.png"/>
+            <label class="block text-center text-xs text-gray-500">ПШЕНИЦА - экструзия мука</label>
+          </div>
+        </div>
+
+        <h3 class="text-lg my-6 uppercase">мука экструдированной конопли</h3>
+        <p class="my-2">
+          Самым простым является процесс экструдирования масличных, нами разработан специальная фильера экструдера которая не только позволяет добиться нужной температуры и давления при экструдирования таких масличных как конопля но и сразу же измельчает ее до нужного размера.
+          Что позволяет сразу после экструдирования паковать экструзию конопли в герметичную упаковку, тем самым мы добиваемся сохранение всех конопляных масел и ароматов, которые так люьит карп.
+        </p>
+        <div class="block sm:flex justify-center mt-6">
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КОНОПЛЯ - зерно" src="/images/flour/main/grain-hemp.png"/>
+            <label class="block text-center text-xs text-gray-500">КОНОПЛЯ - зерно</label>
+          </div>
+          <div class="flex-1 w-3/4 sm:w-1/4 m-auto ms:m-4 rounded-md" title="">
+            <img loading="lazy"  class="h-48 rounded-full m-auto object-cover" title="КОНОПЛЯ - экструзия мука" src="/images/flour/main/hemp.png"/>
+            <label class="block text-center text-xs text-gray-500">КОНОПЛЯ - экструзия мука</label>
+          </div>
+        </div>
+
+        <p class="my-6">
+          Процесс бойлостроения будет в удовольствие, так как мы гарантируем стабильность показателей и свежесть любого нашего продукта.
+          Также в категории РЕЦЕПТЫ мы сможете найти готовые смеси для построения насадочных бойлов.
+        </p>
+      </section>
+
       <section class="w-full max-w-3xl mx-auto font-montserrat text-justify text-xs my-10 px-4 py-6 leading-relaxed">
         <p class="my-2">
           Теперь, после того как вы познакомились с нашим производством и описанием линеек продуктов, перейдите в раздел
