@@ -25,11 +25,17 @@
               <div class="">
 
               <!-- NAME -->
-              <h2 :class="{'font-baloo': category !== 'liquid'}" class="product__name transition duration-150 ease-in-out text-xl mt-3 mb-2 text-center">{{getName(category, product)}}</h2>
+              <h2 class="product__name transition duration-150 ease-in-out mt-3 mb-2 text-center"
+                :class="{
+                  'font-baloo': category !== 'liquid' && category !== 'flour',
+                  'text-xl': category !== 'flour'
+                }">
+                {{getName(category, product)}}
+              </h2>
 
               <!-- AROMA -->
               <p v-if="!product.eco" class="product__aroma text-gray-900 text-xs text-center truncate ..." :title="product.aroma" v-html="product.aroma"></p>
-              <p v-if="product.eco" class="product__aroma text-gray-900 text-xs text-center truncate ..." :title="product.composition" v-html="product.composition"></p>
+              <p v-if="product.eco && category !== 'flour'" class="product__aroma text-gray-900 text-xs text-center truncate ..." :title="product.composition" v-html="product.composition"></p>
 
               <!-- COLOR -->
               <div v-if="product.background" :title="'Цвет: ' + product.color"
@@ -106,7 +112,10 @@
           } else {
             return '/images/' + category + '/sm/' + product.type + '-package-' + product.name.toLowerCase() + '-0.4.jpg'
           }
-        } else {
+        } else if (category === 'flour') {
+          return '/images/' + category + '/main/' + product.img.toLowerCase() + '.png'
+        }
+        else {
           return '/images/' + category + '/sm/' + category + '-package-rotate-' + product.name.toLowerCase() + '-1.jpg'
         }
       },

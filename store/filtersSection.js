@@ -25,6 +25,10 @@ export const state = () => ({
   }, {
     name: 'Ароматизатор',
     code: 'aroma'
+  }],
+  flour: [{
+    name: 'Состав',
+    code: 'composition'
   }]
 })
 
