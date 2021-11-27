@@ -38,7 +38,7 @@
     color: #fefefe;
   }
   .index__header--wrapper {
-    background: url('/images/main.jpg');
+    background: url('/images/main.JPG');
     background-repeat: no-repeat;
     background-size: cover;
   }
