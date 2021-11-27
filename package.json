@@ -13,7 +13,6 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "element-ui": "^2.4.6",
     "nuxt": "^2.0.0",
     "vue-carousel": "^0.18.0"
   },
@@ -26,9 +25,7 @@
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^4.0.0",
-    "node-sass": "^4.13.1",
     "pug": "^2.0.3",
-    "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^7.3.1"
+    "pug-plain-loader": "^1.0.0"
   }
 }

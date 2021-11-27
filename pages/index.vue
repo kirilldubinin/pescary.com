@@ -529,10 +529,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style>
 
-  $color: #fefefe;
-  $main-color: #1a334d;
   html, body {
     margin: 0;
     padding: 0;

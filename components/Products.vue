@@ -39,15 +39,9 @@
   }
 </script>
 
-<style lang="scss">
-  .category {
-    &__item {
-      &:hover {
-        h2 {
-          color: #f3a42f;
-        }
-      }
-    }
+<style>
+  .category__item:hover h2 {
+    color: #f3a42f;
   }
 </style>
 

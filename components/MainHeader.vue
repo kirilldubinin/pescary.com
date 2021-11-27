@@ -69,33 +69,26 @@
   }
 </script>
 
-<style lang="scss">
-  $color: #fefefe;
-  $main-color: #2d5a89;
+<style>
+  .index__header {
+    color: #fefefe;
+  }
+  .index__header--wrapper {
+    background: url('../static/images/main2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .index__header--logo-name {
+    font-family: 'Core Rhino';
+  }
+  .index__header--logo-wave {
+    fill: #fefefe;
+  }
 
-  .index {
-    &__header {
-      color: $color;
-      &--wrapper {
-        background: url('../static/images/main2.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      &--logo-name {
-        font-family: 'Core Rhino';
-      }
-      &--logo-wave {
-        fill: $color;
-      }
-
-      &--social {
-        svg {
-          width: 40px;
-          height: 40px;
-          fill: $color;
-        }
-      }
-    }
+  .index__header--social svg {
+    width: 40px;
+    height: 40px;
+    fill: #fefefe;
   }
 </style>
 

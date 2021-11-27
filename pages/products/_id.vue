@@ -161,40 +161,16 @@
   }
 </script>
 
-<style lang="scss">
-  .product {
-    &:hover {
-      .product__name {
-        color: #f3a42f;
-      }
-    }
-    &__description {
-      display: -webkit-box;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 4;
-    }
+<style>
+  .product:hover .product__name {
+    color: #f3a42f;
   }
-  .products {
-    &__card {
-      background: whitesmoke;
-      padding: 2em 1em 1em 1em;
-      box-shadow: 0 0 5px #ccc;
-      margin: 2em;
-      cursor: pointer;
-      img {
-        width: 180px;
-        height: 180px;
-        object-fit: cover;
-        background-size: cover;
-        border-radius: 20%;
-      }
-      p {
-        padding-top: 1em;
-        text-align: center;
-      }
-    }
+  .product__description {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
   }
 </style>
 

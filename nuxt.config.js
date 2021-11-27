@@ -37,11 +37,9 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   css: [
-    'element-ui/lib/theme-chalk/index.css',
     '~/static/fonts/CoreRhino/CoreRhino.css'
   ],
   plugins: [
-    '@/plugins/element-ui'
   ],
   /*
   ** Build configuration

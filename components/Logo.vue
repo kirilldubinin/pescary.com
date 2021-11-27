@@ -7,20 +7,13 @@
   </section>
 </template>
 
-<style lang="scss">
-  $color: #fefefe;
-  $main-color: #2d5a89;
-  .logo {
-    &__name {
-      font-family: 'Core Rhino';
-      color: $main-color;
-    }
-    &__wave {
-      fill: $main-color;
-    }
-    &__r {
-
-    }
+<style>
+  .logo__name {
+    font-family: 'Core Rhino';
+    color: #2d5a89;
+  }
+  .logo__wave {
+    fill: #2d5a89;
   }
 </style>
 
