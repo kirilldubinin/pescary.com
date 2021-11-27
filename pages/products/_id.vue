@@ -1,6 +1,6 @@
 <template>
-  <section class="index pt-0 sm:pt-20">
-    <MainHeader class="h-20"/>
+  <section class="index">
+    <MainHeader class="mb-16"/>
     <section class="mx-1 sm:mx-10 flex">
       <div class="flex-1">
         <Breadcrumbs :breadcrumbs="breadcrumbs"/>
@@ -54,18 +54,16 @@
               </div>
 
               <!-- PRICE -->
-              <div class="flex content-end px-2">
-                <span class="flex-initial w-12 pl-2 text-gray-500 pt-3 text-sm">
+              <div class="text-center text-gray-500 m-3 text-sm">
                   {{product.sizes[0]}}
-                </span>
-                <span class="flex-1 text-center text-gray-700 pt-3 text-sm font-bold">
+                <!--span class="flex-1 text-center text-gray-700 pt-3 text-sm font-bold">
                   {{product.prices[0]}}
                   {{product.currency}}
-                </span>
-                <div v-on:click="(event) => { add(event, product) }" title="добавить в корзину"
+                </span-->
+                <!--div v-on:click="(event) => { add(event, product) }" title="добавить в корзину"
                   class="flex-initial product__add text-center cursor-pointer hover:bg-gray-300 rounded-full p-2">
                   <svg class="h-8 w-8 pr-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512.008 512.008" style="enable-background:new 0 0 512.008 512.008;" xml:space="preserve"> <path style="fill:#FFC107;" d="M508.288,85.764c-3.04-3.648-7.552-5.76-12.288-5.76H107.52c-4.96,0-9.664,2.304-12.704,6.24 c-3.008,3.968-4.032,9.088-2.752,13.888l51.2,191.36c1.888,7.04,8.224,11.872,15.456,11.872c0.256,0,0.544,0,0.8-0.032l305.28-15.36 c7.392-0.384,13.6-5.792,14.944-13.088l32-176C512.608,94.18,511.328,89.38,508.288,85.764z"/> <g> <circle style="fill:#455A64;" cx="208" cy="448.004" r="48"/> <circle style="fill:#455A64;" cx="400" cy="448.004" r="48"/> <path style="fill:#455A64;" d="M432,368.004H176c-7.264,0-13.6-4.864-15.456-11.872L78.272,48.004H16c-8.832,0-16-7.168-16-16 s7.168-16,16-16h74.56c7.264,0,13.6,4.864,15.456,11.872l82.272,308.128H432c8.832,0,16,7.168,16,16S440.832,368.004,432,368.004z"/> </g> <g> <path style="fill:#FAFAFA;" d="M320,256.004c-8.832,0-16-7.168-16-16v-96c0-8.832,7.168-16,16-16s16,7.168,16,16v96 C336,248.836,328.832,256.004,320,256.004z"/> <path style="fill:#FAFAFA;" d="M368,208.004h-96c-8.832,0-16-7.168-16-16s7.168-16,16-16h96c8.832,0,16,7.168,16,16 S376.832,208.004,368,208.004z"/> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
-                </div>
+                </div-->
               </div>
               </div>
             </nuxt-link>

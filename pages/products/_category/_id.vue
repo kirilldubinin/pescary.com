@@ -1,6 +1,6 @@
 <template>
-  <section class="index pt-0 sm:pt-20">
-    <MainHeader class="h-20"/>
+  <section class="index">
+    <MainHeader class="mb-16"/>
     <Breadcrumbs :breadcrumbs="breadcrumbs"/>
     <section class="w-full block sm:flex max-w-6xl mx-auto font-montserrat block sm:flex">
       <Carousel class="mt-6 flex-1" :perPage=1>
@@ -19,10 +19,10 @@
             В корзину
           </button>
         </div>
-        <p class="price text-xs text-gray-800 mt-4 mb-6">
+        <!--p class="price text-xs text-gray-800 mt-4 mb-6">
           <label>Цена:</label>
           <span class="text-sm font-bold">{{currentPrice}} {{product.currency}}</span>
-        </p>
+        </p-->
 
         <p class="text-xs text-gray-800 mt-4">
           <label>Размер:</label>
