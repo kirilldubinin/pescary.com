@@ -26,7 +26,7 @@ export const state = () => ({
     color: 'Без красителя',
     route:'products/lure', // не менять
     img: '/images/lure/ablet-min.jpg' // не менять
-  }, {
+  },/* {
     _id: 969529,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -46,7 +46,7 @@ export const state = () => ({
     aroma: 'Без ароматизатора',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*/ {
     _id: 277156,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -155,7 +155,7 @@ export const state = () => ({
     aroma: 'Ананас',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },/* {
     _id: 640688,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -177,7 +177,7 @@ export const state = () => ({
     background: 'yellow',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*//* {
     _id: 412628,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -199,7 +199,7 @@ export const state = () => ({
     aroma: 'Шелковица',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*//* {
     _id: 134304,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -221,7 +221,7 @@ export const state = () => ({
     aroma: 'Банан',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*//* {
     _id: 620799,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -243,7 +243,7 @@ export const state = () => ({
     aroma: 'Тигровый орех',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*/ {
     _id: 105381,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -309,7 +309,7 @@ export const state = () => ({
     aroma: 'Монстр Краб',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },/* {
     _id: 895460,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -331,7 +331,7 @@ export const state = () => ({
     aroma: 'Белая рыба',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*/ {
     _id: 198586,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -419,7 +419,7 @@ fraction: 'small',
     aroma: 'Дыня',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },/* {
     _id: 255701,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -441,7 +441,7 @@ fraction: 'small',
     aroma: 'Анис',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*//* {
     _id: 476829,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -463,7 +463,7 @@ fraction: 'small',
     aroma: 'Ваниль',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*/ {
     _id: 141979,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -507,7 +507,7 @@ fraction: 'small',
     aroma: 'Карамель',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },/* {
     _id: 313236,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -529,7 +529,7 @@ fraction: 'small',
     aroma: 'Прованские специи',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*//* {
     _id: 732899,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -551,7 +551,7 @@ fraction: 'small',
     aroma: 'Арахис',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },*/ {
     _id: 383592,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -573,7 +573,7 @@ fraction: 'small',
     aroma: 'Корица',
     route:'products/lure',
     img: '/images/mock.png'
-  }, {
+  },/* {
     _id: 775540,
     type: 'lure',
     category: 'Прикормка рыболовная (Сыпуха)',
@@ -597,5 +597,5 @@ fraction: 'small',
     aroma: 'Карамель',
     route:'products/lure',
     img: '/images/mock.png'
-  }]
+  }*/]
 })

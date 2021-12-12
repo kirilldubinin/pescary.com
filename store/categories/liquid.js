@@ -200,7 +200,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  }, /*{
     _id: 179780, // не менять
     subCategory: 'Меласса',
     type: 'molasses', // не менять
@@ -215,7 +215,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  },*/ {
     _id: 661416, // не менять
     subCategory: 'Меласса',
     type: 'molasses', // не менять
@@ -260,7 +260,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  },/* {
     _id: 274962, // не менять
     subCategory: 'Меласса',
     type: 'molasses', // не менять
@@ -275,7 +275,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  },*//* {
     _id: 293983, // не менять
     subCategory: 'Меласса',
     type: 'molasses', // не менять
@@ -290,7 +290,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  },*/ {
     _id: 558211, // не менять
     subCategory: 'Меласса',
     type: 'molasses', // не менять
@@ -320,7 +320,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  },/* {
     _id: 865375, // не менять
     subCategory: 'Меласса',
     type: 'molasses', // не менять
@@ -335,7 +335,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  },*/ /*{
     _id: 113465, // не менять
     subCategory: 'Меласса',
     type: 'molasses', // не менять
@@ -350,7 +350,7 @@ export const state = () => ({
     prices: ['140'],
     currency: 'руб.',
     sizes: ['1л']
-  }, {
+  },*/ {
     _id: 626171, // не менять
     subCategory: 'Арома Комплекс',
     type: 'aroma', // не менять
@@ -425,7 +425,7 @@ export const state = () => ({
     prices: ['240'],
     currency: 'руб.',
     sizes: ['500мл']
-  }, {
+  }, /*{
     _id: 198229, // не менять
     subCategory: 'Арома Комплекс',
     type: 'aroma', // не менять
@@ -443,7 +443,7 @@ export const state = () => ({
     prices: ['240'],
     currency: 'руб.',
     sizes: ['500мл']
-  }, {
+  },*/ {
     _id: 204134, // не менять
     subCategory: 'Арома Комплекс',
     type: 'aroma', // не менять
@@ -569,7 +569,7 @@ export const state = () => ({
     prices: ['240'],
     currency: 'руб.',
     sizes: ['500мл']
-  }, {
+  },/* {
     _id: 184719, // не менять
     subCategory: 'Арома Комплекс',
     type: 'aroma', // не менять
@@ -587,7 +587,7 @@ export const state = () => ({
     prices: ['240'],
     currency: 'руб.',
     sizes: ['500мл']
-  }, {
+  },*/ {
     _id: 730912, // не менять
     subCategory: 'Арома Комплекс',
     type: 'aroma', // не менять
